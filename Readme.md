@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Дмитрий  Журавель](https://up.htmlacademy.ru/htmlcss/20/user/438365).
-* Наставник: [Никита Дубко] (https://up.htmlacademy.ru/htmlcss/20/user/345007).
+* Наставник: [Никита Дубко](https://up.htmlacademy.ru/htmlcss/20/user/345007).
 
 ---
 
