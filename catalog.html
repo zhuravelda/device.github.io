@@ -28,6 +28,29 @@
         <li>
           <a href="catalog.html">Каталог товаров</a>
         </li>
+        <ul class="catalog-list">
+          <li>
+            <a href="#">Виртуальная реальность</a>
+          </li>
+          <li>
+            <a href="#">Моноподы для селфи</a>
+          </li>
+          <li>
+            <a href="#">Экшн-камеры</a>
+          </li>
+        </ul>
+        <ul class="catalog-list">
+          <li>
+            <a href="#" Фитнес-браслеты></a>
+          </li>
+          <li>
+            <a href="#"></a>Умные часы</li>
+        </ul>
+        <ul class="catalog-list">
+          <li>
+            <a href="#">Квадрокоптеры</a>
+          </li>
+        </ul>
       </ul>+
       <ul class="catalog-list">
         <li>
@@ -72,89 +95,109 @@
 
     <div class="header-catalog">
       <h1>Моноподы для селфи</h1>
-      <nav class="nav-catalog">
-        <ul>
-          <li>
-            <a href="#">Главная</a>
-          </li>
-          <li>
-            <a href="#">Каталог товаров</a>
-          </li>
-          <li>
-            <a href="#">Моноподы для селфи</a>
-          </li>
-        </ul>
-      </nav>
+      <ul class="breadcrumbs">
+        <li>
+          <a href="#">Главная</a>
+        </li>
+        <li>
+          <a href="#">Каталог товаров</a>
+        </li>
+        <li>
+          <a href="#">Моноподы для селфи</a>
+        </li>
+      </ul>
     </div>
 
     <aside class="filter"></aside>
 
     <section class="products">
-      <div class="header-filter">
+      <div class="header-catalog">
         <p>
-          <span>Сортировка:</span>
+          Сортировка:
         </p>
+        <ul class="header-filter">
+          <li>
+            <a class="filtr-btn">По цене></a>
+          </li>
+          <li>
+            <a class="filtr-btn">По типу</a>
+          </li>
+          <li>
+            <a class="filtr-btn">По популярности</a>
+          </li>
+        </ul>
         <ul>
-          <li>По цене</li>
-          <li>По типу</li>
-          <li>По популярности</li>
+          <li class="header-filter-top">
+            <a href="#"></a>
+          </li>
+          <li class="header-filter-bottom">
+            <a href="#"></a>
+          </li>
         </ul>
       </div>
       <ul>
         <li class="products-item">
-          <div class="icon-products">
-            <a href="#"></a>
-          </div>
-          <h3>
-            <a href="#">Любительская селфи-палка</a>
-          </h3>
-          <div class="price">500 руб.</div>
-          <button class="link"></button>
-          <p>Добавить к сравнению</p>
+          <a href="#">
+            <div class="icon-products">
+            </div>
+            <h3>
+              Любительская селфи-палка
+            </h3>
+            <div class="price">500 руб.</div>
+            <button class="link"></button>
+            <p>Добавить к сравнению</p>
+          </a>
         </li>
         <li class="products-item">
-          <div class="icon-products">
-            <a href="#"></a>
-          </div>
-          <h3>
-            <a href="#">Профессиональная селфи-палка</a>
-          </h3>
-          <div class="price">1 500 руб.</div>
+          <a href="#">
+            <div class="icon-products">
+            </div>
+            <h3>
+              Профессиональная селфи-палка
+            </h3>
+            <div class="price">1 500 руб.</div>
+            <button class="link"></button>
+            <p>Добавить к сравнению</p>
+          </a>
         </li>
         <li class="products-item">
-          <div class="icon-products">
-            <a href="#"></a>
-          </div>
-          <h3>
-            <a href="#">Непотопляемая селфи-палка</a>
-          </h3>
-          <div class="price">2 500 руб.</div>
+          <a href="#">
+            <div class="icon-products">
+            </div>
+            <h3>
+              Непотопляемая селфи-палка
+            </h3>
+            <div class="price">2 500 руб.</div>
+            <button class="link"></button>
+            <p>Добавить к сравнению</p>
+          </a>
         </li>
         <li class="products-item">
-          <div class="icon-products">
-            <a href="#"></a>
-          </div>
-          <h3>
-            <a href="#">Селфи-палка «Следуй за мной»</a>
-          </h3>
-          <div class="price">4 900 руб.</div>
+          <a href="#">
+            <div class="icon-products">
+            </div>
+            <h3>
+              Селфи-палка «Следуй за мной»
+            </h3>
+            <div class="price">4 900 руб.</div>
+            <button class="link"></button>
+            <p>Добавить к сравнению</p>
+          </a>
         </li>
       </ul>
     </section>
 
-    <nav class="nav-pages">
-      <ul>
-        <li>
-          <a href="#">1</a>
-        </li>
-        <li>
-          <a href="#">2</a>
-        </li>
-        <li>
-          <a href="#">3</a>
-        </li>
-      </ul>
-    </nav>
+    <ul class="nav-page">
+      <li>
+        <a href="#">1</a>
+      </li>
+      <li>
+        <a href="#">2</a>
+      </li>
+      <li>
+        <a href="#">3</a>
+      </li>
+    </ul>
     <button class="pages-before">Назад</button>
     <button class="pages-after">Вперед</button>
 
@@ -163,7 +206,7 @@
   <footer class="main-footer">
     <div class="logo-footer"></div>
     <p>г. Москва, ул. Строителей, 15</p>
-    <hr>
+    <div class="footer-line"></div>
 
     <nav class="footer-nav">
       <ul class="menu">
