@@ -13,8 +13,12 @@
         <img src="img/logo-header.png" alt="Логотип">
       </div>
       <div class="top-header-nav">
-        <input type="search" name="search">
-        <button class="search"></button>
+        <form action="/echo" method="post">
+          <input type="search" name="search" placeholder="Поиск по сайту">
+          <div class="button">
+            <input type="submit" class="icon-button">
+          </div>
+        </form>
         <ul class="user-navigation">
           <li class="header-user-navigation enter">
             <a href="#">
