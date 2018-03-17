@@ -106,49 +106,55 @@
         <h2 class="filter-header-name">Фильтр:</h2>
       </div>
       <form action="#" method="post">
-        <legend>Стоимость</legend>
-        <ul class="price">
-          <li>
-            <label for="prise">Стоимость</label>
-            от 0
-            <input type="range" min="0" max="5000" step="100" id="price" name="price"> до 5000
-          </li>
-        </ul>
+        <fieldset>
+          <legend>Стоимость</legend>
+          <ul class="price">
+            <li>
+              <label for="prise">Стоимость</label>
+              от 0
+              <input type="range" min="0" max="5000" step="100" id="price" name="price"> до 5000
+            </li>
+          </ul>
+        </fieldset>
         <ul class="filter-color">
-          <legend>Цвет</legend>
-          <li>
-            <label for="subscribe-field">Черный</label>
-            <input type="checkbox" name="subscribe" id="subscribe-field" checked>
-          </li>
-          <li>
-            <label for="subscribe-field">Белый</label>
-            <input type="checkbox" name="subscribe" id="subscribe-field">
-          </li>
-          <li>
-            <label for="subscribe-field">Синий</label>
-            <input type="checkbox" name="subscribe" id="subscribe-field" checked>
-          </li>
-          <li>
-            <label for="subscribe-field">Красный</label>
-            <input type="checkbox" name="subscribe" id="subscribe-field" checked>
-          </li>
-          <li>
-            <label for="subscribe-field">Розовый</label>
-            <input type="checkbox" name="subscribe" id="subscribe-field">
-          </li>
+          <fieldset>
+            <legend>Цвет</legend>
+            <li>
+              <label for="subscribe-field">Черный</label>
+              <input type="checkbox" name="subscribe" id="subscribe-field" checked>
+            </li>
+            <li>
+              <label for="subscribe-field">Белый</label>
+              <input type="checkbox" name="subscribe" id="subscribe-field">
+            </li>
+            <li>
+              <label for="subscribe-field">Синий</label>
+              <input type="checkbox" name="subscribe" id="subscribe-field" checked>
+            </li>
+            <li>
+              <label for="subscribe-field">Красный</label>
+              <input type="checkbox" name="subscribe" id="subscribe-field" checked>
+            </li>
+            <li>
+              <label for="subscribe-field">Розовый</label>
+              <input type="checkbox" name="subscribe" id="subscribe-field">
+            </li>
+          </fieldset>
         </ul>
         <ul class="filter-adress">
-          <legend>Адрес</legend>
-          <li>
-            <label>
-              <input type="radio" name="question-one" value="Есть" checked>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" name="question-one" value="Нет">
-            </label>
-          </li>
+          <fieldset>
+            <legend>Адрес</legend>
+            <li>
+              <label>
+                <input type="radio" name="question-one" value="Есть" checked>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="question-one" value="Нет">
+              </label>
+            </li>
+          </fieldset>
         </ul>
 
         <input type="submit" value="Показать" class="link">
