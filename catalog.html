@@ -108,13 +108,20 @@
       <form action="https://echo.htmlacademy.ru" method="post">
         <fieldset>
           <legend>Стоимость</legend>
+          <div class="price-line"></div>
           <ul class="price">
             <li>
-              <label for="prise">Стоимость</label>
-              от 0
-              <input type="range" min="0" max="5000" step="100" id="price" name="price"> до 5000
+              <label for="price-button-left"></label>
+              <input type="range" min="0" max="10000" step="100" id="price-button-left" name="price-button-left">
+              <output name="result-left">0</output>
+            </li>
+            <li>
+              <label for="price-button-right"></label>
+              <input type="range" min="0" max="10000" step="100" id="price-button-right" name="price-button-right">
+              <output name="result-right">10000</output>
             </li>
           </ul>
+
         </fieldset>
         <ul class="filter-color">
           <fieldset>
@@ -156,7 +163,7 @@
             </li>
           </fieldset>
         </ul>
-        <button type="submit" class="link" >Показать</button>
+        <button type="submit" class="link">Показать</button>
       </form>
     </aside>
 
@@ -324,3 +331,5 @@
 </body>
 
 </html>
+
+
