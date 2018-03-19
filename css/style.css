@@ -44,6 +44,9 @@ a {
   letter-spacing: 200;
 }
 
+.exit {
+  opacity: 0.3;
+}
 
 .slider-content-title {
   font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
@@ -82,7 +85,7 @@ a {
   background-color: #f7e296;
 }
 
-.categories-product h3 {
+.title-product {
   font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
   font-size: 18px;
   line-height: 24;
@@ -98,6 +101,7 @@ a {
   font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
   font-size: 47px;
   line-height: 48px;
+  letter-spacing: 10;
 }
 
 .services-description p {
@@ -123,4 +127,52 @@ a {
   line-height: 36px;
 }
 
+
+
+
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 10;
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.filter-goods {
+  font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 200;
+}
+
+.filtr-btn {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.header-filter>.filtr-btn {
+  color: #000000;
+}
+
+.header-filter-top {
+  background-color: rgba(0, 0, 0, 0.2)
+}
+
+.header-filter-bottom {
+  background-color: #000000;
+}
+
+.price {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 10;
+  color: #464646;
+}
+
+.filter-color,
+.filter-bluetooth {
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 10;
+}
 
