@@ -1,19 +1,34 @@
 @font-face {
-  font-family: 'gilroyextrabold';
-  src: url('fonts/gilroyextrabold.woff2') format('woff2');
-  font-weight: normal;
+  font-family: 'Gilroy';
+  src: url('fonts/gilroyextrabold.woff2') format('woff2'),
+       url('fonts/gilroyextrabold.woff') format('woff');
+  font-weight: 800;
   font-style: normal;
-
 }
 
 @font-face {
-  font-family: 'gilroylight';
-  src: url('fonts/gilroylight.woff2') format('woff2');
-  font-weight: normal;
+  font-family: 'Gilroy';
+  src: url('fonts/gilroylight.woff2') format('woff2'),
+  src: url('fonts/gilroylight.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
-
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/opensans.woff2') format('woff2'),
+       url('fonts/opensans.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/opensanslight.woff2') format('woff2'),
+  src: url('fonts/opensanslight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
 
 body {
   margin: 0;
@@ -150,13 +165,13 @@ a {
   letter-spacing: 200;
 }
 
-.filtr-btn {
+.filter-btn {
   font-size: 14px;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.3)
 }
 
-.header-filter>.filtr-btn {
+.header-filter>.filter-btn {
   color: #000000;
 }
 
