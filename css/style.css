@@ -55,8 +55,8 @@ a {
   font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
   text-transform: uppercase;
   font-size: 18px;
-  line-height: 24;
-  letter-spacing: 200;
+  line-height: 24px;
+  letter-spacing: 200em;
 }
 
 .exit {
@@ -103,8 +103,8 @@ a {
 .title-product {
   font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
   font-size: 18px;
-  line-height: 24;
-  letter-spacing: 10;
+  line-height: 24px;
+  letter-spacing: 10em;
 }
 
 
@@ -116,7 +116,7 @@ a {
   font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
   font-size: 47px;
   line-height: 48px;
-  letter-spacing: 10;
+  letter-spacing: 10em;
 }
 
 .services-description p {
@@ -148,7 +148,7 @@ a {
 .breadcrumbs {
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 10;
+  letter-spacing: 10em;
   color: rgba(0, 0, 0, 0.3)
 }
 
@@ -162,7 +162,7 @@ a {
   font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 200;
+  letter-spacing: 200em;
 }
 
 .filter-btn {
@@ -186,7 +186,7 @@ a {
 .price {
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 10;
+  letter-spacing: 10em;
   color: #464646;
 }
 
@@ -194,6 +194,6 @@ a {
 .filter-bluetooth {
   font-size: 14px;
   line-height: 40px;
-  letter-spacing: 10;
+  letter-spacing: 10em;
 }
 
