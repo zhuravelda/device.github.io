@@ -47,6 +47,14 @@ a {
   text-decoration: none;
 }
 
+.main-logo:hover {
+  opacity: 0.6;
+}
+
+.main-logo:active {
+  opacity: 0.3;
+}
+
 .main-header {
   background-color: #f7e296;
 }
