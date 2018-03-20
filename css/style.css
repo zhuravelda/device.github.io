@@ -55,6 +55,30 @@ a {
   opacity: 0.3;
 }
 
+.header-user-navigation a:hover {
+  color: rgba(0, 0, 0, 0.6)
+}
+.header-user-navigation a:active {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.nav-title a,
+.sub-menu a:hover {
+  color: rgba(0, 0, 0, 0.6)
+}
+
+.nav-title a,
+.sub-menu a:active {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+
+
+
+
+
+
+
 .main-header {
   background-color: #f7e296;
 }
