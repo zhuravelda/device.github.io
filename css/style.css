@@ -52,7 +52,8 @@ a {
 }
 
 .nav-title {
-  font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 24px;
@@ -64,13 +65,15 @@ a {
 }
 
 .slider-content-title {
-  font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-weight: 800;
   font-size: 47px;
   line-height: 56px;
 }
 
 .number {
-  font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-weight: 800;
   font-size: 179.2px;
   line-height: 179.2px;
   color: #ffffff;
@@ -85,7 +88,8 @@ a {
 }
 
 .feature-name {
-  font-family: gilroylight, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-weight: 800;
   font-size: 36px;
   line-height: 48px;
 }
@@ -101,7 +105,8 @@ a {
 }
 
 .title-product {
-  font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 10em;
@@ -113,7 +118,8 @@ a {
 }
 
 .block-title{
-  font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-weight: 800;
   font-size: 47px;
   line-height: 48px;
   letter-spacing: 10em;
@@ -128,7 +134,8 @@ a {
 }
 
 .list-about {
-  font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-weight: 800;
   font-size: 16px;
   line-height: 40px;
 }
@@ -159,13 +166,15 @@ a {
 }
 
 .filter-goods {
-  font-family: gilroyextrabold, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-weight: 800;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 200em;
 }
 
 .filter-btn {
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.3)
