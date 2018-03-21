@@ -453,6 +453,18 @@ textarea[id="text"]:hover {
   letter-spacing: 0.2em;
 }
 
+.page a {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.page a:hover {
+  color: rgba(0, 0, 0, 0.6)
+}
+
+.page a:active {
+  color: rgba(0, 0, 0, 1.0)
+}
+
 .filter-btn {
   font-weight: 400;
   font-size: 14px;
@@ -500,13 +512,39 @@ textarea[id="text"]:hover {
   color: #000000;
 }
 
-/* .header-filter-top {
-  background-color: rgba(0, 0, 0, 0.2)
+.button-card {
+  color: #000000;
+  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  background-color: #f0c52e;
 }
 
-.header-filter-bottom {
-  background-color: #000000;
-} */
+.button-card:hover {
+}
+
+.button-card:active {
+  color: rgba(0, 0, 0, 0.3);
+
+}
+
+.compare-product {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+
+.compare-product:hover {
+  color: rgba(0, 0, 0, 1.0);
+}
+
+.compare-product:active {
+  color: rgba(0, 0, 0, 0.2);
+}
 
 .price {
   font-size: 14px;
