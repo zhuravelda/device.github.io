@@ -236,11 +236,26 @@ label {
   line-height: 24px;
 }
 
-input[type="text"] {
+input[type="text"],
+textarea[id="text"] {
   color: rgba(70, 70, 70, 0.4);
   font-size: 14px;
   line-height: 18px;
+  background-color: #f2f2f2;
  }
+
+
+ .close {
+   opacity: 0.5;
+ }
+
+ .close:hover {
+  opacity: 1.0;
+}
+
+.close:active {
+  opacity: 0.3;
+}
 
 .breadcrumbs {
   font-size: 14px;
