@@ -55,20 +55,42 @@ a {
   opacity: 0.3;
 }
 
+.header-user-navigation a {
+  color: rgb(0, 0, 0);
+}
 .header-user-navigation a:hover {
-  color: rgba(0, 0, 0, 0.6)
+  color: rgba(0, 0, 0, 0.6);
 }
+
 .header-user-navigation a:active {
-  color: rgba(0, 0, 0, 0.3)
+  color: rgba(0, 0, 0, 0.3);
 }
 
-.nav-title a,
+.nav-title a {
+  color: #000000;
+}
+
+.nav-title a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-title a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.sub-menu a {
+  color: #000000;
+}
+
 .sub-menu a:hover {
-  color: rgba(0, 0, 0, 0.6)
+  color: rgba(0, 0, 0, 0.6);
 }
 
-.nav-title a,
 .sub-menu a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.link:active {
   color: rgba(0, 0, 0, 0.3)
 }
 
@@ -136,6 +158,18 @@ a {
   background-color: #f7e296;
 }
 
+.categories-product:hover {
+  background-color: #f0c52e;
+}
+
+.categories-product:active {
+  background-color: #f0c52e;
+}
+
+.categories-product a:active {
+  opacity: 0.3;
+}
+
 .title-product {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
   font-weight: 800;
@@ -144,6 +178,13 @@ a {
   letter-spacing: 0.01em;
 }
 
+.title-product a {
+  color: #000000;
+}
+
+.title-product a:active {
+  color: rgba(0, 0, 0, 0.3)
+}
 
 .services {
   background-color: #e5e5e5;
@@ -156,6 +197,11 @@ a {
   line-height: 48px;
   letter-spacing: 0.01em;
 }
+
+.our-services>link>a:active {
+  color: #f7e184;
+}
+
 
 .services-description p {
   color: #464646;
@@ -172,6 +218,8 @@ a {
   line-height: 40px;
 }
 
+
+
 .main-footer {
   color: #ffffff;
   background-color: #464646;
@@ -181,8 +229,18 @@ a {
   line-height: 36px;
 }
 
+label {
+  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+}
 
-
+input[type="text"] {
+  color: rgba(70, 70, 70, 0.4);
+  font-size: 14px;
+  line-height: 18px;
+ }
 
 .breadcrumbs {
   font-size: 14px;
