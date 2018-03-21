@@ -198,10 +198,13 @@ a {
   letter-spacing: 0.01em;
 }
 
-.our-services>link>a:active {
-  color: #f7e184;
+.our-services .link:active {
+  background-color: #000000;
 }
 
+.our-services .link a:active {
+  color: #f7e184;
+}
 
 .services-description p {
   color: #464646;
@@ -210,6 +213,63 @@ a {
 .about p, .contacts p {
   color: #464646;
 }
+
+
+.partners-item {
+  height: 100px;
+}
+
+.partners-dji {
+  background-image: url(../img/logo-dji.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+.partners-dji:hover {
+  background-image: url(../img/logo-dji-color.jpg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.partners-gadgest {
+  background-image: url(../img/logo-gadgest.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+.partners-gadgest:hover {
+  background-image: url(../img/logo-gadgest-color.jpg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.partners-gopro {
+  background-image: url(../img/logo-gopro.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+.partners-gopro:hover {
+  background-image: url(../img/logo-gopro-color.jpg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.partners-vive {
+  background-image: url(../img/logo-vive.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+.partners-vive:hover {
+  background-image: url(../img/logo-vive-color.jpg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+
+
+
 
 .list-about {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
@@ -236,13 +296,23 @@ label {
   line-height: 24px;
 }
 
-input[type="text"],
+/* input[type="text"],
 textarea[id="text"] {
   color: rgba(70, 70, 70, 0.4);
   font-size: 14px;
   line-height: 18px;
-  background-color: #f2f2f2;
+  background-color: #464646;
+  opacity: 0.5;
  }
+
+ input[type="text"],
+textarea[id="text"]:hover {
+  color: rgba(70, 70, 70, 0.4);
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #464646;
+  opacity: 0.8;
+ } */
 
 
  .close {
