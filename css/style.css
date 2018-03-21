@@ -267,10 +267,6 @@ a {
   opacity: 1.0;
 }
 
-
-
-
-
 .list-about {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
   font-weight: 800;
@@ -278,15 +274,115 @@ a {
   line-height: 40px;
 }
 
+.logo-footer:hover {
+  opacity: 0.6;
+}
 
+.logo-footer:active {
+  opacity: 0.3;
+}
 
 .main-footer {
   color: #ffffff;
   background-color: #464646;
 }
 
-.footer-user-navigation {
+.footer-user-navigation a{
   line-height: 36px;
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.footer-user-navigation a:hover {
+  color: rgba(255, 255, 255, 1.0)
+}
+
+.footer-user-navigation a:active {
+  color: rgba(255, 255, 255, 0.3)
+}
+
+.footer-nav .nav-title a {
+  color: rgba(255, 255, 255, 1.0)
+}
+
+.footer-nav .nav-title a:hover {
+  color: rgba(255, 255, 255, 0.6)
+}
+
+.footer-nav .nav-title a:active {
+  color: rgba(255, 255, 255, 0.3)
+}
+
+.icon-facebook {
+  background-image: url(../img/fb.svg);
+  background-repeat: no-repeat;
+  opacity: 0.3;
+}
+
+.icon-facebook:hover {
+  background-image: url(../img/fb.svg);
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.icon-facebook:active {
+  background-image: url(../img/fb.svg);
+  background-repeat: no-repeat;
+  opacity: 0.1;
+}
+
+.icon-instagram {
+  background-image: url(../img/instagram.svg);
+  background-repeat: no-repeat;
+  opacity: 0.3;
+}
+
+.icon-instagram:hover {
+  background-image: url(../img/instagram.svg);
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.icon-instagram:active {
+  background-image: url(../img/instagram.svg);
+  background-repeat: no-repeat;
+  opacity: 0.1;
+}
+
+.icon-twitter {
+  background-image: url(../img/twitter.svg);
+  background-repeat: no-repeat;
+  opacity: 0.3;
+}
+
+.icon-twitter:hover {
+  background-image: url(../img/twitter.svg);
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.icon-twitter:active {
+  background-image: url(../img/twitter.svg);
+  background-repeat: no-repeat;
+  opacity: 0.1;
+}
+
+.logo-academy {
+  background-image: url(../img/logo-html.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+  height: 100px;
+}
+
+.logo-academy:hover {
+  background-image: url(../img/logo-html.svg);
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.logo-academy:active {
+  background-image: url(../img/logo-html.svg);
+  background-repeat: no-repeat;
+  opacity: 0.3;
 }
 
 label {
@@ -327,12 +423,21 @@ textarea[id="text"]:hover {
   opacity: 0.3;
 }
 
-.breadcrumbs {
+.breadcrumbs a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.01em;
   color: rgba(0, 0, 0, 0.3)
 }
+
+.breadcrumbs a:hover {
+  color: rgba(0, 0, 0, 0.6)
+}
+
+.breadcrumbs a:active {
+  color: rgba(0, 0, 0, 0.1)
+}
+
 
 .filter {
   background-image: url('../img/background-side.jpg');
@@ -353,6 +458,14 @@ textarea[id="text"]:hover {
   font-size: 14px;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.3)
+}
+
+.filter-btn:hover {
+  color: rgba(0, 0, 0, 0.6)
+}
+
+.filter-btn:active {
+  color: rgba(0, 0, 0, 1.0)
 }
 
 .header-filter>.filter-btn {
