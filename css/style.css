@@ -468,17 +468,45 @@ textarea[id="text"]:hover {
   color: rgba(0, 0, 0, 1.0)
 }
 
+.header-filter-top {
+  background-image: url(../img/icon-up-dir.svg);
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+.header-filter-top:hover {
+  opacity: 0.4;
+}
+
+.header-filter-top:active {
+  opacity: 1.0;
+}
+
+.header-filter-bottom {
+  background-image: url(../img/icon-down-dir.svg);
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+.header-filter-bottom:hover {
+  opacity: 0.4;
+}
+
+.header-filter-bottom:active {
+  opacity: 1.0;
+}
+
 .header-filter>.filter-btn {
   color: #000000;
 }
 
-.header-filter-top {
+/* .header-filter-top {
   background-color: rgba(0, 0, 0, 0.2)
 }
 
 .header-filter-bottom {
   background-color: #000000;
-}
+} */
 
 .price {
   font-size: 14px;
