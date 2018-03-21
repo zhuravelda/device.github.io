@@ -71,7 +71,6 @@ a {
 }
 
 .nav-title a:hover {
-  color: rgba(0, 0, 0, 0.6);
 }
 
 .nav-title a:active {
@@ -512,6 +511,10 @@ textarea[id="text"]:hover {
   color: #000000;
 }
 
+.icon-products:hover {
+  opacity: 0.7;
+}
+
 .button-card {
   color: #000000;
   font-family: Gilroy, 'Myriad Pro', sans-serif;
@@ -560,3 +563,22 @@ textarea[id="text"]:hover {
   letter-spacing: 0.01em;
 }
 
+.nav-page {
+  background-color: #ebebeb;
+}
+
+.pages-before:hover {
+  background-color: #d9d9d9;
+}
+
+.pages-before:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.pages-after:hover {
+  background-color: #d9d9d9;
+}
+
+.pages-after:active {
+  color: rgba(0, 0, 0, 0.3);
+}
