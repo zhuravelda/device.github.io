@@ -66,11 +66,12 @@ a {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.nav-title a {
+.nav-title a, .button-title a {
   color: #000000;
 }
 
 .nav-title a:hover {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .nav-title a:active {
@@ -104,7 +105,7 @@ a {
   background-color: #f7e296;
 }
 
-.nav-title {
+.nav-title, .button-title {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
@@ -112,6 +113,12 @@ a {
   line-height: 24px;
   letter-spacing: 0.2em;
 }
+
+.button-title :active {
+  color: rgba(0, 0, 0, 0.3);
+  height: 40px;
+}
+
 
 .exit {
   opacity: 0.3;
@@ -309,6 +316,11 @@ a {
 
 .footer-nav .nav-title a:active {
   color: rgba(255, 255, 255, 0.3)
+}
+
+.social {
+  width: 32px;
+  height: 32px;
 }
 
 .icon-facebook {
