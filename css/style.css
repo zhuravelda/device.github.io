@@ -51,6 +51,10 @@ li {
   list-style-type: none;
  }
 
+ul {
+  padding-left: 0;
+}
+
  .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -170,6 +174,13 @@ li {
 
 /* Блок Слайдер */
 
+.fitness-tracker {
+  display: none;
+}
+
+.dron {
+  display: none;
+}
 
 .slider {
   display: flex;
@@ -223,18 +234,16 @@ li {
 
 .products {
   display: flex;
-  justify-content: space-around;
-}
-
-.product-item {
-  width: 160px;
-  height: 160px;
+  justify-content: space-between;
+  padding-left: 0;
 }
 
 .product-item {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 160px;
+  height: 160px;
 }
 
 .product-item {
@@ -272,7 +281,25 @@ li {
 /* Болк Сервис */
 
 .services {
+  display: flex;
   background-color: #e5e5e5;
+  min-height: 288px;
+  margin-top: 180px;
+}
+.services>.wrapper {
+  display: flex;
+}
+
+.services-warranty {
+  display: none;
+}
+
+.services-credit {
+  display: none;
+}
+
+.delivery {
+  /* display: none; */
 }
 
 .block-title{
@@ -283,6 +310,29 @@ li {
   letter-spacing: 0.01em;
 }
 
+.our-services {
+  min-width: 280px;
+}
+
+.our-services li {
+  margin-bottom: 28px;
+}
+
+.services-description {
+  min-width: 760px;
+  padding-left: 120px;
+}
+
+.services-description li {
+  position: relative;
+}
+
+.services-description li img {
+  position: absolute;
+  right: 60px;
+  top: -70px;
+}
+
 .our-services .link:active {
   background-color: #000000;
 }
@@ -291,14 +341,25 @@ li {
   color: #f7e184;
 }
 
-.services-description p {
+.services-description li p {
   color: #464646;
 }
 
 /* Блок Партнеры */
 
+.our-partners {
+  margin-top: 100px;
+}
+
+.partners {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
 .partners-item {
   height: 100px;
+  width: 260px;
 }
 
 .partners-dji {
