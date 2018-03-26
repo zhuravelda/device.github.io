@@ -649,6 +649,15 @@ textarea[id="text"]:hover {
 
  /* Хлебные крошки */
 
+.breadcrumbs {
+  display: flex;
+  min-width: 400px;
+}
+
+.breadcrumbs li {
+  padding-right: 21px;
+}
+
 .breadcrumbs a {
   font-size: 14px;
   line-height: 24px;
