@@ -412,8 +412,25 @@ ul {
 
  /* Блок Онас/Контакты */
 
+.info-about {
+  display: flex;
+  margin-top: 90px;
+}
+
+.about {
+  min-width: 480px;
+  margin-right: 100px;
+}
+
+.contacts {
+  min-width: 580px;
+}
+
 .about p, .contacts p {
   color: #464646;
+  font-size: 15px;
+  line-height: 30px;
+
 }
 
 .list-about {
@@ -433,6 +450,14 @@ ul {
 
 .close:active {
  opacity: 0.3;
+}
+
+.map-big {
+  display: none;
+}
+
+.form-contacts {
+  display: none;
 }
 
 /* Блок Подвал */
