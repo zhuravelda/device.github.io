@@ -221,19 +221,35 @@ li {
 
 /* Блок Категории товаров */
 
-.categories-product {
+.products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-item {
+  width: 160px;
+  height: 160px;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-item {
   background-color: #f7e296;
 }
 
-.categories-product:hover {
+.product-item:hover {
   background-color: #f0c52e;
 }
 
-.categories-product:active {
+.product-item:active {
   background-color: #f0c52e;
 }
 
-.categories-product a:active {
+.product-item a:active {
   opacity: 0.3;
 }
 
