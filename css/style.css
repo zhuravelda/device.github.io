@@ -51,6 +51,13 @@ li {
   list-style-type: none;
  }
 
+ .visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+ }
 
 .main-logo:hover {
   opacity: 0.6;
@@ -161,9 +168,20 @@ li {
   opacity: 0.3;
 }
 
-
-
 /* Блок Слайдер */
+
+
+.slider {
+  display: flex;
+}
+
+.slider-img {
+  min-width: 580px;
+}
+
+.slider-content {
+  min-width: 580px;
+}
 
 .slider-content-title {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
