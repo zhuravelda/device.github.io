@@ -47,6 +47,8 @@ a {
   text-decoration: none;
 }
 
+
+
 .main-logo:hover {
   opacity: 0.6;
 }
@@ -99,7 +101,7 @@ a {
 
 
 
-
+/* Блок Шапка */
 
 .main-header {
   background-color: #f7e296;
@@ -119,10 +121,11 @@ a {
 
 }
 
-
-.exit {
+.enter {
   opacity: 0.3;
 }
+
+/* Блок Слайдер */
 
 .slider-content-title {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
@@ -160,6 +163,8 @@ a {
   color: #464646;
 }
 
+/* Блок Категории товаров */
+
 .categories-product {
   background-color: #f7e296;
 }
@@ -192,6 +197,8 @@ a {
   color: rgba(0, 0, 0, 0.3)
 }
 
+/* Болк Сервис */
+
 .services {
   background-color: #e5e5e5;
 }
@@ -216,10 +223,7 @@ a {
   color: #464646;
 }
 
-.about p, .contacts p {
-  color: #464646;
-}
-
+/* Блок Партнеры */
 
 .partners-item {
   height: 100px;
@@ -273,12 +277,32 @@ a {
   opacity: 1.0;
 }
 
+ /* Блок Онас/Контакты */
+
+.about p, .contacts p {
+  color: #464646;
+}
+
 .list-about {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
   font-weight: 800;
   font-size: 16px;
   line-height: 40px;
 }
+
+.close {
+  opacity: 0.5;
+}
+
+.close:hover {
+ opacity: 1.0;
+}
+
+.close:active {
+ opacity: 0.3;
+}
+
+/* Блок Подвал */
 
 .logo-footer:hover {
   opacity: 0.6;
@@ -422,17 +446,8 @@ textarea[id="text"]:hover {
  } */
 
 
- .close {
-   opacity: 0.5;
- }
 
- .close:hover {
-  opacity: 1.0;
-}
-
-.close:active {
-  opacity: 0.3;
-}
+ /* Хлебные крошки */
 
 .breadcrumbs a {
   font-size: 14px;
@@ -449,6 +464,7 @@ textarea[id="text"]:hover {
   color: rgba(0, 0, 0, 0.1)
 }
 
+/* Блок Фильтр товара */
 
 .filter {
   background-image: url('../img/background-side.jpg');
@@ -464,17 +480,14 @@ textarea[id="text"]:hover {
   letter-spacing: 0.2em;
 }
 
-.page a {
-  color: rgba(0, 0, 0, 0.3)
+.filter-color,
+.filter-bluetooth {
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
 }
 
-.page a:hover {
-  color: rgba(0, 0, 0, 0.6)
-}
-
-.page a:active {
-  color: rgba(0, 0, 0, 1.0)
-}
+/* Блок с товаром */
 
 .filter-btn {
   font-weight: 400;
@@ -568,11 +581,18 @@ textarea[id="text"]:hover {
   color: #464646;
 }
 
-.filter-color,
-.filter-bluetooth {
-  font-size: 14px;
-  line-height: 40px;
-  letter-spacing: 0.01em;
+/* Блок Навигация по страницам с товаром */
+
+.page a {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.page a:hover {
+  color: rgba(0, 0, 0, 0.6)
+}
+
+.page a:active {
+  color: rgba(0, 0, 0, 1.0)
 }
 
 .nav-page {
