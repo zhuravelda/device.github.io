@@ -47,6 +47,9 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+ }
 
 
 .main-logo:hover {
@@ -99,12 +102,38 @@ a {
 
 
 
-
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+}
 
 /* Блок Шапка */
 
 .main-header {
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.background-header {
   background-color: #f7e296;
+}
+
+.main-logo {
+  position: relative;
+  bottom: 18px;
+}
+
+.top-header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-navigation {
+  min-width: 500px;
+  display: flex;
 }
 
 .nav-title, .button-title {
@@ -116,14 +145,23 @@ a {
   letter-spacing: 0.2em;
 }
 
+.catalog {
+  display: flex;
+}
+
 .button-title :active {
   color: rgba(0, 0, 0, 0.3);
+}
 
+.header-nav-deployed {
+  display: flex;
 }
 
 .enter {
   opacity: 0.3;
 }
+
+
 
 /* Блок Слайдер */
 
@@ -614,3 +652,15 @@ textarea[id="text"]:hover {
 .pages-after:active {
   color: rgba(0, 0, 0, 0.3);
 }
+
+/* html,
+body {
+  min-width: 1440px;
+  min-width: 2795px;
+} */
+
+
+/* body {
+  background-image: url(../img/device-index.jpg);
+  background-repeat: no-repeat;
+} */
