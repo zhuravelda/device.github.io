@@ -94,6 +94,10 @@ ul {
   color: rgba(0, 0, 0, 0.3);
 }
 
+.sub-menu {
+  margin-right: 40px;
+}
+
 .sub-menu a {
   color: #000000;
 }
@@ -154,6 +158,17 @@ ul {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.2em;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-servise {
+  min-width: 500px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .catalog {
@@ -235,7 +250,13 @@ ul {
 .products {
   display: flex;
   justify-content: space-between;
-  padding-left: 0;
+  flex-direction: column;
+}
+
+.products-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
 }
 
 .product-item {
@@ -649,6 +670,26 @@ textarea[id="text"]:hover {
 
  /* Хлебные крошки */
 
+.header-catalog {
+  margin-left: 60px;
+}
+
+.header-catalog-page {
+  background-color: #ebebeb;
+  width: 100%;
+}
+
+.products-wrapper {
+  display: flex;
+  min-height: 70px;
+  min-width: 760px;
+  margin-left: 72px;
+}
+
+.products-wrapper .filter-goods {
+  margin-right: 40px;
+}
+
 .breadcrumbs {
   display: flex;
   min-width: 400px;
@@ -675,10 +716,50 @@ textarea[id="text"]:hover {
 
 /* Блок Фильтр товара */
 
+.main-content {
+  display: flex;
+}
+
+.filter-header {
+  min-height: 60px;
+  background-color: #dcdcdc;
+  padding-left: 200px;
+  padding-top: 10px;
+}
+
 .filter {
   background-image: url('../img/background-side.jpg');
   background-repeat: repeat;
   background-color: #efefef;
+  min-width: 468px;
+  padding-top: 0;
+}
+
+.block-products {
+  width: 800px;
+  margin-left: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.products-item {
+  min-width: 360px;
+}
+
+.name-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.item-hover {
+  display: none;
+}
+
+.form-filter {
+  padding-left: 200px;
+  padding-right: 68px;
 }
 
 .filter-goods {
@@ -687,6 +768,11 @@ textarea[id="text"]:hover {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.header-catalog-page>.filter-goods {
+  margin-left: 72px;
 }
 
 .filter-color,
@@ -711,6 +797,13 @@ textarea[id="text"]:hover {
 
 .filter-btn:active {
   color: rgba(0, 0, 0, 1.0)
+}
+
+.header-filter {
+  display: flex;
+  justify-content: space-between;
+  min-width: 320px;
+  padding: 0 20px;
 }
 
 .header-filter-top {
@@ -789,6 +882,10 @@ textarea[id="text"]:hover {
 
 /* Блок Навигация по страницам с товаром */
 
+.page {
+  margin-right: 30px;
+}
+
 .page a {
   color: rgba(0, 0, 0, 0.3)
 }
@@ -802,7 +899,20 @@ textarea[id="text"]:hover {
 }
 
 .nav-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
   background-color: #ebebeb;
+  margin-left: 72px;
+}
+
+.nav-page-products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pages-before {
+  order: -1;
 }
 
 .pages-before:hover {
