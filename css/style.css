@@ -175,7 +175,7 @@ ul {
   display: flex;
 }
 
-.button-title :active {
+.button-title:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -811,7 +811,7 @@ textarea[id="text"]:hover {
   align-items: baseline;
 }
 
-.item-hover {
+.item-controls {
   display: none;
 }
 
