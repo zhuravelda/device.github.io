@@ -82,7 +82,8 @@ ul {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.nav-title a, .button-title a {
+.nav-title a,
+.button-title a {
   color: #000000;
 }
 
@@ -151,7 +152,8 @@ ul {
   display: flex;
 }
 
-.nav-title, .button-title {
+.nav-title,
+.button-title {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
@@ -447,7 +449,8 @@ ul {
   min-width: 580px;
 }
 
-.about p, .contacts p {
+.about p,
+.contacts p {
   color: #464646;
   font-size: 15px;
   line-height: 30px;
