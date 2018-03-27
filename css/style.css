@@ -247,11 +247,11 @@ ul {
 
 /* Блок Категории товаров */
 
-.products {
+/* .products {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-}
+} */
 
 .products-group {
   display: flex;
@@ -676,13 +676,13 @@ textarea[id="text"]:hover {
 
 .header-catalog-page {
   background-color: #ebebeb;
-  width: 100%;
+  width: auto;
 }
 
 .products-wrapper {
   display: flex;
-  min-height: 70px;
-  min-width: 760px;
+  justify-content: space-between;
+  width: 760px;
   margin-left: 72px;
 }
 
@@ -714,7 +714,34 @@ textarea[id="text"]:hover {
   color: rgba(0, 0, 0, 0.1)
 }
 
+.header-product-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.container-product-nav {
+  /* width: 1160px; */
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.header-product-left {
+  background-color: #dbdbdb;
+  width: 33%;
+}
+
+.header-product-right {
+  background-color: #ebebeb;
+  width: 67%;
+}
+
 /* Блок Фильтр товара */
+
+.main-block-produkts {
+  display: flex;
+  margin: 0;
+}
 
 .main-content {
   display: flex;
@@ -727,17 +754,47 @@ textarea[id="text"]:hover {
   padding-top: 10px;
 }
 
+.filter-header-name {
+  display: inline-block;
+  float: right;
+  width: 265px;
+}
+
 .filter {
   background-image: url('../img/background-side.jpg');
   background-repeat: repeat;
   background-color: #efefef;
-  min-width: 468px;
+  width: 33%;
   padding-top: 0;
 }
 
-.block-products {
-  width: 800px;
+.filter-content {
+  padding-top: 69px;
+  width: 274px;
+  float: right;
+
+}
+
+.form-filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.products-side {
+  padding-top: 69px;
+  width: 67%;
+}
+
+/* Уточнить */
+.main-block-products {
+  display: flex;
+  flex-direction: column;
+  width: 760px;
   margin-left: 72px;
+}
+
+.block-products {
+  min-width: 760px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -745,6 +802,7 @@ textarea[id="text"]:hover {
 
 .products-item {
   min-width: 360px;
+  margin-bottom: 45px;
 }
 
 .name-price {
@@ -757,11 +815,6 @@ textarea[id="text"]:hover {
   display: none;
 }
 
-.form-filter {
-  padding-left: 200px;
-  padding-right: 68px;
-}
-
 .filter-goods {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
   font-weight: 800;
@@ -769,10 +822,6 @@ textarea[id="text"]:hover {
   line-height: 24px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-}
-
-.header-catalog-page>.filter-goods {
-  margin-left: 72px;
 }
 
 .filter-color,
@@ -903,7 +952,7 @@ textarea[id="text"]:hover {
   justify-content: space-between;
   padding: 25px 30px;
   background-color: #ebebeb;
-  margin-left: 72px;
+  margin-bottom: 77px;
 }
 
 .nav-page-products {
