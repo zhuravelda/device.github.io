@@ -348,10 +348,10 @@ ul {
   position: relative;
 }
 
-.services-description li img {
+.services-description-icon {
   position: absolute;
   right: 60px;
-  top: -70px;
+  top: -75px;
 }
 
 .our-services .link:active {
@@ -362,7 +362,7 @@ ul {
   color: #f7e184;
 }
 
-.services-description li p {
+.services-description-text {
   color: #464646;
 }
 
