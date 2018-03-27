@@ -307,7 +307,7 @@ ul {
   min-height: 288px;
   margin-top: 180px;
 }
-.services>.wrapper {
+.services > .wrapper {
   display: flex;
 }
 
@@ -883,7 +883,7 @@ textarea[id="text"]:hover {
   opacity: 1.0;
 }
 
-.header-filter>.filter-btn {
+.header-filter > .filter-btn {
   color: #000000;
 }
 
