@@ -135,21 +135,30 @@ ul {
 
 .background-header {
   background-color: #f7e296;
+  min-height: 300px;
 }
 
 .main-logo {
   position: relative;
-  bottom: 18px;
+  bottom: 19px;
+}
+
+.form-searh {
+    display: flex;
 }
 
 .top-header-nav {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 23px;
 }
 
 .user-navigation {
-  min-width: 500px;
+  min-width: 360px;
   display: flex;
+  justify-content: space-between;
+  margin: 0;
+  align-items: flex-start;
 }
 
 .nav-title,
@@ -165,10 +174,17 @@ ul {
 .main-nav {
   display: flex;
   justify-content: space-between;
+  width: 1042px;
 }
 
 .nav-service {
   min-width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-servise-title {
+  min-width: 270px;
   display: flex;
   justify-content: space-between;
 }
@@ -183,6 +199,13 @@ ul {
 
 .header-nav-deployed {
   display: flex;
+  display: none;
+}
+
+.nav-servise {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
 }
 
 .enter {
@@ -191,24 +214,48 @@ ul {
 
 /* Блок Слайдер */
 
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  min-height: 480px;
+  margin-top: -110px;
+  margin-bottom: 110px;
+}
+
+.slider-img,
+.slider-content {
+  width: 560px;
+}
+
+.slider-img {
+  position: relative;
+}
+
+.selfish-stick img{
+  position: absolute;
+  left: 90px;
+  top: -2px;
+}
+
 .fitness-tracker {
   display: none;
 }
 
+.fitness-tracker img{
+  position: absolute;
+  left: 100px;
+}
+
 .dron {
-  display: none;
+display: none;
 }
 
-.slider {
-  display: flex;
-}
-
-.slider-img {
-  min-width: 580px;
-}
-
-.slider-content {
-  min-width: 580px;
+.dron img{
+  position: absolute;
+  left: 30px;
+  top: 63px;
 }
 
 .slider-content-title {
@@ -216,18 +263,54 @@ ul {
   font-weight: 800;
   font-size: 47px;
   line-height: 56px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  letter-spacing: 0.01em;
+  position: relative;
+}
+
+.slider-content {
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 .number {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
   font-weight: 800;
   font-size: 179.2px;
+  position: absolute;
+  right: 49px;
+  top: -16px;
   line-height: 179.2px;
   color: #ffffff;
 }
 
-.slider-content-discription {
+.white-line {
+  width: 100px;
+  height: 7px;
+  background-color: #ffffff;
+  margin-top: 35px;
+}
+
+.slider-content .slider-content-discription {
   color: #464646;
+  font-style: 15px;
+  /* letter-spacing: 0.01em; */
+}
+
+.nav-slider {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-top: 35px;
+}
+
+.switch {
+  display: flex;
+  justify-content: space-between;
+  min-width: 80px;
+  margin-right: 20px;
 }
 
 .link {
@@ -235,25 +318,26 @@ ul {
 }
 
 .feature-name {
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
-  font-weight: 800;
-  font-size: 36px;
-  line-height: 48px;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #464646;
 }
 
 .significance-characteristics {
-  font-size: 13px;
-  line-height: 20px;
-  color: #464646;
+  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.01em;
+}
+
+.characteristics {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Блок Категории товаров */
 
-/* .products {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-} */
 
 .products-group {
   display: flex;
@@ -261,12 +345,56 @@ ul {
   margin-top: 100px;
 }
 
+.categories {
+  margin-bottom: 155px;
+}
+
+.categories-product {
+  width: 160px;
+  height: auto;
+}
+
 .product-item {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   width: 160px;
   height: 160px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.product-item img {
+  position: absolute;
+}
+
+.virtual-reality img {
+  top: 52px;
+  left: 32px;
+}
+.monopods-selfie img {
+  top: 41px;
+  left: 38px;
+}
+.action-cameras img {
+  top: 38px;
+  left: 49px;
+}
+.fitness-bracelets img {
+  top: 50px;
+  left: 29px;
+}
+.smart-watch img {
+  top: 32px;
+  left: 55px;
+}
+.quadrocopters img {
+  top: 49px;
+  left: 14px;
+}
+
+.product-item a {
+  position: absolute;
 }
 
 .product-item {
@@ -285,15 +413,12 @@ ul {
   opacity: 0.3;
 }
 
-.title-product {
+.title-product a {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.01em;
-}
-
-.title-product a {
   color: #000000;
 }
 
@@ -306,8 +431,7 @@ ul {
 .services {
   display: flex;
   background-color: #e5e5e5;
-  min-height: 288px;
-  margin-top: 180px;
+  height: 288px;
 }
 .services > .wrapper {
   display: flex;
@@ -331,33 +455,51 @@ ul {
   font-size: 47px;
   line-height: 48px;
   letter-spacing: 0.01em;
+  margin-bottom: 42px;
+  margin-top: 55px;
+}
+
+.about p {
+  margin-bottom: 30px;
 }
 
 .our-services {
-  min-width: 280px;
+  width: 279px;
+  min-height: 230px;
+  border-right: solid 7px #000000;
+  position: relative;
+  top: -116px;
+  padding-top: 90px;
 }
 
 .our-services li {
-  margin-bottom: 28px;
+  margin-bottom: 40px;
+  width: 160px;
+  text-align: center;
 }
 
 .services-description {
-  min-width: 760px;
-  padding-left: 120px;
+  width: 761px;
+  padding-left: 115px;
+  position: relative;
+  min-height: 288px;
 }
 
 .services-description li {
-  position: relative;
+  position: absolute;
+  top: -83px;
 }
 
 .services-description-icon {
   position: absolute;
-  right: 60px;
-  top: -75px;
+  right: -240px;
+  top: 35px;
 }
 
 .our-services .link:active {
   background-color: #000000;
+  width: 280px;
+  min-height: 40px;
 }
 
 .our-services .link a:active {
@@ -365,19 +507,22 @@ ul {
 }
 
 .services-description-text {
+  letter-spacing: 0.01em;
   color: #464646;
 }
 
 /* Блок Партнеры */
 
 .our-partners {
-  margin-top: 100px;
+  margin-top: 94px;
 }
 
 .partners {
   padding-left: 0;
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .partners-item {
@@ -437,16 +582,29 @@ ul {
 
 .info-about {
   display: flex;
+  justify-content: space-between;
   margin-top: 90px;
+  position: relative;
 }
 
-.about {
-  min-width: 480px;
-  margin-right: 100px;
-}
-
+.about,
 .contacts {
-  min-width: 580px;
+  width: 560px;
+  position: relative;
+}
+
+.black-line {
+  position: absolute;
+  margin-top: 2px;
+  width: 80px;
+  height: 7px;
+  background-color: #000000;
+}
+
+.contacts .button-title,
+.about  .button-title {
+  width: 260px;
+  text-align: center;
 }
 
 .about p,
@@ -457,11 +615,27 @@ ul {
 
 }
 
+.about .link {
+  margin-top: 62px;
+}
+
+.about .link,
+.contacts .link {
+  margin-bottom: 88px;
+}
+
 .list-about {
   font-family: Gilroy, 'Myriad Pro', sans-serif;
   font-weight: 800;
   font-size: 16px;
   line-height: 40px;
+  margin-top: 68px;
+}
+
+.list-about li {
+  list-style-type: circle;
+  padding-left: 18px;
+  margin-left: 18px;
 }
 
 .close {
@@ -474,6 +648,11 @@ ul {
 
 .close:active {
  opacity: 0.3;
+}
+
+.map {
+  margin-top: 40px;
+  margin-bottom: 70px;
 }
 
 .map-big {
@@ -492,12 +671,14 @@ ul {
 }
 
 .footer-user .user-navigation {
-  min-width: 325px;
+  width: 325px;
 }
 
-.user-navigation {
+.block-user-navigation {
   display: flex;
   justify-content: space-between;
+  width: 244px;
+  padding-left: 26px;
 }
 
 .logo-footer:hover {
@@ -535,8 +716,8 @@ ul {
 .footer-nav {
   display: flex;
   justify-content: space-between;
-  min-width: 440px;
-  padding: 0 10px;
+  min-width: 430px;
+  padding-right: 40px;
 }
 
 .footer-nav .nav-title a:hover {
@@ -550,7 +731,24 @@ ul {
 .footer-service {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.address {
+  bottom: 25px;
+  margin-top: 10px;
+}
+
+.telephone {
+  margin-top: 10px;
+}
+
+.footer-line {
+  width: 80px;
+  height: 7px;
+  background-color: #ffc600;
+  margin-top: 60px;
 }
 
 .footer-bottom {
@@ -562,7 +760,8 @@ ul {
   display: flex;
   justify-content: space-between;
   min-width: 160px;
-  /* padding: 0 10px; */
+  padding-right: 60px;
+  margin-top: 50px;
 }
 
 .social {
@@ -630,6 +829,7 @@ ul {
   opacity: 1.0;
   min-height: 35px;
   min-width: 27px;
+  margin-top: 45px;
 }
 
 .logo-academy:hover {
