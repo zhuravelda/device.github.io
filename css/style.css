@@ -74,13 +74,14 @@ ul {
 .header-user-navigation a {
   color: rgb(0, 0, 0);
 }
+
 .header-user-navigation a:hover {
-  color: rgba(0, 0, 0, 0.6);
+  opacity: 0.6;
+}
+.header-user-navigation a:active {
+  opacity: 0.3;
 }
 
-.header-user-navigation a:active {
-  color: rgba(0, 0, 0, 0.3);
-}
 
 .nav-title a,
 .button-title a {
@@ -154,11 +155,22 @@ ul {
 }
 
 .user-navigation {
-  min-width: 360px;
   display: flex;
   justify-content: space-between;
   margin: 0;
   align-items: flex-start;
+}
+
+.block-user-navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 214px;
+  padding-left: 26px;
+}
+
+.top-header-nav .user-navigation {
+  min-width: 500px;
+  margin-top: -2px;
 }
 
 .nav-title,
@@ -208,9 +220,21 @@ ul {
   width: 500px;
 }
 
-.enter {
-  opacity: 0.3;
+.enter-icon,
+.compare-icon,
+.cart-icon {
+  display: inline-block;
+  margin-right: 8px;
 }
+
+.enter-icon {
+  margin-right: 12px;
+}
+
+
+
+
+
 
 /* Блок Слайдер */
 
@@ -335,6 +359,7 @@ display: none;
   display: flex;
   flex-direction: column;
 }
+
 
 /* Блок Категории товаров */
 
@@ -670,17 +695,6 @@ display: none;
   justify-content: space-between;
 }
 
-.footer-user .user-navigation {
-  width: 325px;
-}
-
-.block-user-navigation {
-  display: flex;
-  justify-content: space-between;
-  width: 244px;
-  padding-left: 26px;
-}
-
 .logo-footer:hover {
   opacity: 0.6;
 }
@@ -694,6 +708,10 @@ display: none;
   background-color: #464646;
   padding-top: 66px;
   padding-bottom: 65px;
+}
+
+.footer-user .user-navigation {
+  min-width: 325px;
 }
 
 .footer-user-navigation a{
@@ -759,9 +777,10 @@ display: none;
 .footer-icon {
   display: flex;
   justify-content: space-between;
-  min-width: 160px;
-  padding-right: 60px;
-  margin-top: 50px;
+  min-width: 140px;
+  padding-right: 53px;
+  /* padding-left: 100px; */
+  margin-top: 47px;
 }
 
 .social {
@@ -770,6 +789,7 @@ display: none;
 }
 
 .icon-facebook {
+  margin-right: - 12px;
   background-image: url(../img/fb.svg);
   background-repeat: no-repeat;
   opacity: 0.3;
@@ -868,6 +888,15 @@ textarea[id="text"]:hover {
   background-color: #464646;
   opacity: 0.8;
  } */
+
+
+
+/* Шапка Каталога */
+
+.catalog-header {
+  min-height: 186px;
+}
+
 
 
 
