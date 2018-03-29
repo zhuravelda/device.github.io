@@ -132,11 +132,11 @@ ul {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
+  min-height: 300px;
 }
 
 .background-header {
   background-color: #f7e296;
-  min-height: 300px;
 }
 
 .main-logo {
@@ -151,7 +151,7 @@ ul {
 .top-header-nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 23px;
+  /* margin-bottom: 23px; */
 }
 
 .user-navigation {
@@ -187,6 +187,8 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 1042px;
+  margin-top: -7px;
+  padding: 0;
 }
 
 .nav-service {
@@ -451,6 +453,10 @@ display: none;
   color: rgba(0, 0, 0, 0.3)
 }
 
+.name-price > .title-product {
+  width: 260px;
+}
+
 /* Болк Сервис */
 
 .services {
@@ -480,8 +486,8 @@ display: none;
   font-size: 47px;
   line-height: 48px;
   letter-spacing: 0.01em;
-  margin-bottom: 42px;
-  margin-top: 55px;
+  /* margin-bottom: 42px; */
+  margin-top: 38px;
 }
 
 .about p {
@@ -893,17 +899,18 @@ textarea[id="text"]:hover {
 
 /* Шапка Каталога */
 
-.catalog-header {
+.background-header > .catalog-header {
   min-height: 186px;
 }
 
-
-
-
- /* Хлебные крошки */
+/* Хлебные крошки */
 
 .header-catalog {
   margin-left: 60px;
+}
+
+.header-catalog h1 {
+  margin-bottom: 20px;
 }
 
 .header-catalog-page {
@@ -925,6 +932,8 @@ textarea[id="text"]:hover {
 .breadcrumbs {
   display: flex;
   min-width: 400px;
+  margin: 0;
+  padding: 0;
 }
 
 .breadcrumbs li {
@@ -949,23 +958,27 @@ textarea[id="text"]:hover {
 .header-product-nav {
   margin: 0;
   padding: 0;
+  margin-top: 43px;
 }
 
 .container-product-nav {
-  /* width: 1160px; */
   margin: 0 auto;
   display: flex;
-
 }
 
 .header-product-left {
   background-color: #dbdbdb;
-  width: 33%;
+  width: 33.5%;
 }
 
 .header-product-right {
   background-color: #ebebeb;
-  width: 67%;
+  width: 66.5%;
+}
+.header-product-left,
+.header-product-right {
+  padding-top: 6px;
+  padding-bottom: 3px;
 }
 
 /* Блок Фильтр товара */
@@ -996,7 +1009,7 @@ textarea[id="text"]:hover {
   background-image: url('../img/background-side.jpg');
   background-repeat: repeat;
   background-color: #efefef;
-  width: 33%;
+  width: 33.5%;
   padding-top: 0;
 }
 
@@ -1014,7 +1027,7 @@ textarea[id="text"]:hover {
 
 .products-side {
   padding-top: 69px;
-  width: 67%;
+  width: 66.5%;
 }
 
 /* Уточнить */
@@ -1034,7 +1047,7 @@ textarea[id="text"]:hover {
 
 .products-item {
   min-width: 360px;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
 }
 
 .name-price {
@@ -1161,6 +1174,14 @@ textarea[id="text"]:hover {
   color: #464646;
 }
 
+/* .icon-new {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/new.png);
+  background-repeat: no-repeat;
+
+} */
+
 /* Блок Навигация по страницам с товаром */
 
 .page {
@@ -1182,9 +1203,10 @@ textarea[id="text"]:hover {
 .nav-page {
   display: flex;
   justify-content: space-between;
-  padding: 25px 30px;
+  padding: 20px 30px;
   background-color: #ebebeb;
   margin-bottom: 77px;
+  margin-top: -10px;
 }
 
 .nav-page-products {
