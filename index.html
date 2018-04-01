@@ -18,22 +18,26 @@
         <img src="img/logo-header.png" alt="Логотип">
       </div>
       <div class="top-header-nav">
-        <form class="form-searh" action="https://echo.htmlacademy.ru/" method="post">
+        <form class="form-search" action="https://echo.htmlacademy.ru/" method="post">
+          <div class="icon-button"></div>
           <input type="text" name="search" placeholder="Поиск по сайту">
-          <div class="button">
-            <button type="submit" class="icon-button"></button>
+          <div class="button-search">
+            <button type="submit">Найти</button>
           </div>
         </form>
         <ul class="user-navigation">
           <li class="header-user-navigation enter">
-            <a href="#"><span class="enter-icon"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12"><path fill="#272525" d="M.032 12h12.937c-.163-2.643-2.074-4.837-4.671-5.543a3.47 3.47 0 0 0 1.687-2.972 3.485 3.485 0 0 0-6.97 0c0 1.264.68 2.361 1.688 2.972C2.106 7.163.194 9.357.032 12z"/></svg></span>Войти</a>
+            <a href="#">
+              <span class="user-icon"></span>Войти</a>
           </li>
           <ul class="block-user-navigation">
             <li class="header-user-navigation compare">
-              <a href="#"><span class="compare-icon"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><path d="M8 2h1.984v8H8zM0 3h1.984v7H0zM4 0h2v10H4z"/></svg></span>Сравнить</a>
+              <a href="#">
+                <span class="compare-icon"></span>Сравнить</a>
             </li>
             <li class="header-user-navigation cart">
-              <a href="#"><span class="cart-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path d="M11.864 3.017a.429.429 0 0 0-.327-.154H9.225V4.09c0 .563-.484 1.022-1.08 1.022-.594 0-1.078-.458-1.078-1.022V2.863H4.909V4.09c0 .563-.485 1.022-1.08 1.022-.595 0-1.078-.458-1.078-1.022V2.863H.438a.43.43 0 0 0-.327.154.472.472 0 0 0-.108.358l.776 7.134c.015.806.642 1.455 1.411 1.455h7.595c.77 0 1.396-.649 1.411-1.455l.776-7.134a.476.476 0 0 0-.108-.358z"/><path d="M3.829 4.499c.239 0 .433-.184.433-.409V1.84c0-.632.672-1.022 1.295-1.022h1.079c.655 0 1.078.401 1.078 1.022v2.25c0 .225.194.409.431.409.239 0 .433-.184.433-.409V1.84C8.577.773 7.761 0 6.636 0H5.557c-1.19 0-2.159.826-2.159 1.84v2.25c0 .225.194.409.431.409z"/></svg></span>Корзина</a>
+              <a href="#">
+                <span class="cart-icon"></span>Корзина</a>
             </li>
           </ul>
         </ul>
@@ -117,34 +121,38 @@
             Делай селфи,
             <br> как Бен Стиллер!
           </p>
-          <p class="slider-content-discription">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+          <p class="slider-content-discription">Самая длинная палка для селфи доступна в нашем магазине.
+            <br>Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
           </p>
           <div class="nav-slider">
-            <p class="link button-title">
+            <p class="button-page button-title">
               <a href="#">Подробнее</a>
             </p>
             <ul class="switch">
               <li>
-                <input type="radio" aria-label="Перейти на слайд 1">
+                <label class="switch-button switch-on" for="slaider-1"></label>
+                <input class="visually-hidden" type="radio" id="slaider-1" aria-label="Перейти на слайд 1">
               </li>
               <li>
-                <input type="radio" aria-label="Перейти на слайд 2">
+                <label class="switch-button switch-off" for="slaider-2"></label>
+                <input class="visually-hidden" type="radio" id="slaider-2" aria-label="Перейти на слайд 2">
               </li>
               <li>
-                <input type="radio" aria-label="Перейти на слайд 3">
+                <label class="switch-button switch-off" for="slaider-3"></label>
+                <input class="visually-hidden" type="radio" id="slaider-3" aria-label="Перейти на слайд 3">
               </li>
             </ul>
           </div>
           <table class="characteristics">
-            <tr class="feature-name-main">
-              <td class="feature-name">Длина палки</td>
-              <td class="feature-name">Вес палки</td>
-              <td class="feature-name">Материал</td>
-            </tr>
             <tr class="significance-characteristics-main">
-              <td class="significance-characteristics">8,5 м</td>
-              <td class="significance-characteristics">5 кг</td>
-              <td class="significance-characteristics">Карбон</td>
+              <td class="significance-characteristics characteristics-column-1">8,5 м</td>
+              <td class="significance-characteristics characteristics-column-2">5 кг</td>
+              <td class="significance-characteristics characteristics-column-3">Карбон</td>
+            </tr>
+            <tr class="feature-name-main">
+              <td class="feature-name characteristics-column-1">Длина палки</td>
+              <td class="feature-name characteristics-column-2">Вес палки</td>
+              <td class="feature-name characteristics-column-3">Материал</td>
             </tr>
           </table>
         </div>
@@ -158,27 +166,30 @@
           <p class="slider-content-discription">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
           </p>
           <div class="nav-slider">
-            <p class="link button-title">
+            <p class="button-page button-title">
               <a href="#">Подробнее</a>
             </p>
             <ul class="switch">
               <li>
-                <input type="radio" aria-label="Перейти на слайд 1">
+                <label class="switch-button switch-on" for="slaider-1"></label>
+                <input class="visually-hidden" type="radio" id="slaider-1" aria-label="Перейти на слайд 1">
               </li>
               <li>
-                <input type="radio" aria-label="Перейти на слайд 2">
+                <label class="switch-button switch-off" for="slaider-2"></label>
+                <input class="visually-hidden" type="radio" id="slaider-2" aria-label="Перейти на слайд 2">
               </li>
               <li>
-                <input type="radio" aria-label="Перейти на слайд 3">
+                <label class="switch-button switch-off" for="slaider-3"></label>
+                <input class="visually-hidden" type="radio" id="slaider-3" aria-label="Перейти на слайд 3">
               </li>
             </ul>
           </div>
           <table class="characteristics">
-            <tr>
-              <td class="feature-name">Без подзарядки</td>
+            <tr class="significance-characteristics-main">
+              <td class="significance-characteristics characteristics-column-1">48 часов</td>
             </tr>
-            <tr>
-              <td class="significance-characteristics">48 часов</td>
+            <tr class="significance-characteristics-main">
+              <td class="significance-characteristics characteristics-column-1">Без подзарядки</td>
             </tr>
           </table>
         </div>
@@ -192,29 +203,32 @@
           <p class="slider-content-discription">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
           </p>
           <div class="nav-slider">
-            <p class="link button-title">
+            <p class="button-page button-title">
               <a href="#">Подробнее</a>
             </p>
             <ul class="switch">
               <li>
-                <input type="radio" aria-label="Перейти на слайд 1">
+                <label class="switch-button switch-on" for="slaider-1"></label>
+                <input class="visually-hidden" type="radio" id="slaider-1" aria-label="Перейти на слайд 1">
               </li>
               <li>
-                <input type="radio" aria-label="Перейти на слайд 2">
+                <label class="switch-button switch-off" for="slaider-2"></label>
+                <input class="visually-hidden" type="radio" id="slaider-2" aria-label="Перейти на слайд 2">
               </li>
               <li>
-                <input type="radio" aria-label="Перейти на слайд 3">
+                <label class="switch-button switch-off" for="slaider-3"></label>
+                <input class="visually-hidden" type="radio" id="slaider-3" aria-label="Перейти на слайд 3">
               </li>
             </ul>
           </div>
           <table class="characteristics">
-            <tr>
-              <td class="feature-name">Дальность полета</td>
-              <td class="feature-name">Радиус поражения</td>
+            <tr class="significance-characteristics-main">
+              <td class="significance-characteristics characteristics-column-1">800 м </td>
+              <td class="significance-characteristics characteristics-column-1">50 м</td>
             </tr>
-            <tr>
-              <td class="significance-characteristics">800 м </td>
-              <td class="significance-characteristics">50 м</td>
+            <tr class="significance-characteristics-main">
+              <td class="significance-characteristics characteristics-column-1">Дальность полета</td>
+              <td class="significance-characteristics characteristics-column-1">Радиус поражения</td>
             </tr>
           </table>
         </div>
@@ -300,17 +314,17 @@
         <h2 class="visually-hidden">Сервис</h2>
         <ul class="our-services">
           <li class="link button-title">
-            <div class="background-button-service">
+            <div class="button-page delivery-button">
               <a href="#">Доставка</a>
             </div>
           </li>
           <li class="link button-title">
-            <div class="background-button-service">
+            <div class="button-page warranty-button">
               <a href="#">Гарантия</a>
             </div>
           </li>
           <li class="link button-title">
-            <div class="background-button-service">
+            <div class="button-page credit-button">
               <a href="#">Кредит</a>
             </div>
           </li>
@@ -372,14 +386,16 @@
         <section class="about">
           <div class="black-line"></div>
           <h2 class="block-title">О нас</h2>
-          <p>Огромный выбор гаджетов не оставит равнодушным гика,<br>который есть в каждом из нас.</p>
-          <p>Мы можем доставить ваш товар в самые отдаленные точки<br>России! DEVICE работает со многими транспортными компаниями:</p>
+          <p>Огромный выбор гаджетов не оставит равнодушным гика,
+            <br>который есть в каждом из нас.</p>
+          <p>Мы можем доставить ваш товар в самые отдаленные точки
+            <br>России! DEVICE работает со многими транспортными компаниями:</p>
           <ul class="list-about">
             <li>Деловые Линии</li>
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
           </ul>
-          <div class="link button-title">
+          <div class="button-page button-title">
             <a href="#">Подробнее о нас</a>
           </div>
         </section>
@@ -391,30 +407,42 @@
             бывает.
           </p>
           <div class="map">
-            <img src="img/map.jpg" alt="Карта">
+            <a href="https://www.google.com.ua/maps/@48.382803,31.17461,6z?hl=uk&authuser=0">
+              <img src="img/map.jpg" alt="Карта">
+            </a>
           </div>
           <div class="map-big">
             <img src="img/map-big.jpg" alt="Большая карта">
-            <button class="close">
-              <img src="img/modal-close.svg" alt="Закрыть карту">
+            <button class="close" aria-label="Закрыть карту">
             </button>
           </div>
-          <div class="link button-title">
-            <a href="#">Напишите нам</a>
-          </div>
+          <button class="button-page button-title">Напишите нам</button>
           <form class="form-contacts" action="https://echo.htmlacademy.ru/" method="post">
-            <label class="title-form" for="name">Ваше имя:</label>
-            <input type="text" id="name" name="name" value="Имя Фамилия">
-            <label class="title-form" for="email">Ваш e-mail:</label>
-            <input type="text" id="email" name="email" value="email@example.com">
-            <label class="title-form" for="text">Текст письма:</label>
-            <textarea id="text" name="text" rows="6" value="В свободной форме"></textarea>
-            <div class="link nav-title">
-              <input type="submit" value="Отправить">
+            <ul>
+              <li>
+                <ul class="personal-data">
+                  <li class="personal-form">
+                    <label class="title-form" for="name">Ваше имя:</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Имя Фамилия">
+                  </li>
+                  <li class="personal-form">
+                    <label class="title-form" for="email">Ваш e-mail:</label>
+                    <br>
+                    <input type="text" id="email" name="email" placeholder="email@example.com">
+                  </li>
+                </ul>
+              </li>
+              <li class="form-text">
+                <label class="title-form" for="text">Текст письма:</label>
+                <br>
+                <textarea id="text" name="text" rows="8" value="В свободной форме" placeholder="В свободной форме"></textarea>
+              </li>
+            </ul>
+            <div class="button-page button-title">
+              <button type="submit">Отправить</button>
             </div>
-            <button class="close">
-              <img src="img/modal-close.svg" alt="Закрыть форму">
-            </button>
+            <button class="close" aria-label="Закрыть форму"></button>
           </form>
         </section>
       </div>
@@ -433,15 +461,15 @@
         <ul class="user-navigation">
           <li class="footer-user-navigation enter">
             <a href="#">
-              <span class="enter-icon"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12"><path d="M.032 12h12.937c-.163-2.643-2.074-4.837-4.671-5.543a3.47 3.47 0 0 0 1.687-2.972 3.485 3.485 0 0 0-6.97 0c0 1.264.68 2.361 1.688 2.972C2.106 7.163.194 9.357.032 12z"/></svg></span>Войти</a>
+              <span class="user-icon-footer"></span>Войти</a>
           </li>
           <li class="footer-user-navigation compare">
             <a href="#">
-              <span class="compare-icon"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><path d="M8 2h1.984v8H8zM0 3h1.984v7H0zM4 0h2v10H4z"/></svg></span>Сравнить</a>
+              <span class="compare-icon-footer"></span>Сравнить</a>
           </li>
           <li class="footer-user-navigation cart">
             <a href="#">
-              <span class="cart-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path d="M11.864 3.017a.429.429 0 0 0-.327-.154H9.225V4.09c0 .563-.484 1.022-1.08 1.022-.594 0-1.078-.458-1.078-1.022V2.863H4.909V4.09c0 .563-.485 1.022-1.08 1.022-.595 0-1.078-.458-1.078-1.022V2.863H.438a.43.43 0 0 0-.327.154.472.472 0 0 0-.108.358l.776 7.134c.015.806.642 1.455 1.411 1.455h7.595c.77 0 1.396-.649 1.411-1.455l.776-7.134a.476.476 0 0 0-.108-.358z"/><path d="M3.829 4.499c.239 0 .433-.184.433-.409V1.84c0-.632.672-1.022 1.295-1.022h1.079c.655 0 1.078.401 1.078 1.022v2.25c0 .225.194.409.431.409.239 0 .433-.184.433-.409V1.84C8.577.773 7.761 0 6.636 0H5.557c-1.19 0-2.159.826-2.159 1.84v2.25c0 .225.194.409.431.409z"/></svg></span>Корзина</a>
+              <span class="cart-icon-footer"></span>Корзина</a>
           </li>
         </ul>
       </div>
@@ -475,7 +503,11 @@
             <a href="#" aria-label="Твитер"></a>
           </li>
         </ul>
-        <div class="logo-academy"><a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Профессиональный HTML и CSS, уровень 1"></a></div>
+        <div>
+          <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Профессиональный HTML и CSS, уровень 1">
+            <span class="logo-academy"></span>
+          </a>
+        </div>
       </div>
     </div>
   </footer>
