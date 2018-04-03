@@ -36,16 +36,18 @@
           <li class="header-user-navigation exit">
             <a href="#">Выйти</a>
           </li>
-          <ul class="block-user-navigation">
-            <li class="header-user-navigation compare">
-              <a href="#">
-                <span class="compare-icon"></span>Сравнить</a>
-            </li>
-            <li class="header-user-navigation cart">
-              <a href="#">
-                <span class="cart-icon"></span>Корзина</a>
-            </li>
-          </ul>
+          <li>
+            <ul class="block-user-navigation">
+              <li class="header-user-navigation compare">
+                <a href="#">
+                  <span class="compare-icon"></span>Сравнить</a>
+              </li>
+              <li class="header-user-navigation cart">
+                <a href="#">
+                  <span class="cart-icon"></span>Корзина</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
       <nav class="main-nav">
@@ -85,14 +87,16 @@
           </li>
         </ul>
         <ul class="nav-servise">
-          <ul class="nav-servise-title">
-            <li class="nav-title">
-              <a href="#">Доставка</a>
-            </li>
-            <li class="nav-title">
-              <a href="#">Гарантия</a>
-            </li>
-          </ul>
+          <li>
+            <ul class="nav-servise-title">
+              <li class="nav-title">
+                <a href="#">Доставка</a>
+              </li>
+              <li class="nav-title">
+                <a href="#">Гарантия</a>
+              </li>
+            </ul>
+          </li>
           <li class="nav-title">
             <a href="#">Контакты</a>
           </li>
@@ -161,32 +165,31 @@
         <aside class="filter-content">
           <h2 class="visually-hidden">Фильтр</h2>
           <form class="form-filter" action="https://echo.htmlacademy.ru" method="post">
-            <div class="block-filter">
-              <legend class="title-product">Стоимость</legend>
-              <div class="price-line"></div>
-              <ul class="price">
-                <li>
-                  <div class="button-left"></div>
-                  <label for="price-button-left">
-                    <span class="value-min">от 0</span>
-                  </label>
-                  <input class="visually-hidden" type="number" min="0" max="10000" step="100" id="price-button-left" name="price-button-left">
-                  <output name="result-left"></output>
-                </li>
-                <li>
-                  <div class="button-right"></div>
-                  <label for="price-button-right">
-                    <span class="value-max">до 5000</span>
-                  </label>
-                  <input class="visually-hidden" type="number" min="0" max="10000" step="100" id="price-button-right" name="price-button-right">
-                  <output name="result-right"></output>
-                </li>
-              </ul>
-            </div>
+            <div class="title-product"></div>
+            <h4 class="block-filter">Стоимость</h4>
+            <div class="price-line"></div>
+            <ul class="price">
+              <li>
+                <div class="button-left"></div>
+                <label for="price-button-left">
+                  <span class="value-min">от 0</span>
+                </label>
+                <input class="visually-hidden" type="number" min="0" max="10000" step="100" id="price-button-left" name="price-button-left">
+                <output name="result-left"></output>
+              </li>
+              <li>
+                <div class="button-right"></div>
+                <label for="price-button-right">
+                  <span class="value-max">до 5000</span>
+                </label>
+                <input class="visually-hidden" type="number" min="0" max="10000" step="100" id="price-button-right" name="price-button-right">
+                <output name="result-right"></output>
+              </li>
+            </ul>
 
             <ul class="block-filter filter-color">
 
-              <legend class="title-product">Цвет</legend>
+              <li class="title-product">Цвет</li>
               <li>
                 <label class="color" for="colour-black">
                   <span class="color-active"></span>Черный</label>
@@ -215,7 +218,7 @@
 
             </ul>
             <ul class="block-filter filter-bluetooth">
-              <h3 class="title-product">Bluetooth</h3>
+              <li class="title-product">Bluetooth</li>
               <li>
                 <label for="bluetooth-yes">
                   <span class="bluetooth bluetooth-on"></span>Есть</label>
@@ -236,8 +239,8 @@
       <li class="products-side">
         <section class="products">
           <div class="main-block-products">
+            <h2 class="visually-hidden"> Товары</h2>
             <ul class="block-products">
-              <h2 class="visually-hidden"> Товары</h2>
               <li class="products-item">
                 <div class="wrapper-product">
                   <div class="icon-products">
@@ -254,7 +257,9 @@
                   </h3>
                   <div class="price">500 руб.</div>
                 </div>
-                <div class="icon-new"><span class="icon-text">NEW</span></div>
+                <div class="icon-new">
+                  <span class="icon-text">NEW</span>
+                </div>
               </li>
               <li class="products-item">
                 <div class="wrapper-product">
@@ -272,7 +277,9 @@
                   </h3>
                   <div class="price">1 500 руб.</div>
                 </div>
-                <div class="icon-new"><span class="icon-text">NEW</span></div>
+                <div class="icon-new">
+                  <span class="icon-text">NEW</span>
+                </div>
               </li>
               <li class="products-item">
                 <div class="wrapper-product">
@@ -290,7 +297,9 @@
                   </h3>
                   <div class="price">2 500 руб.</div>
                 </div>
-                <div class="icon-new"><span class="icon-text">NEW</span></div>
+                <div class="icon-new">
+                  <span class="icon-text">NEW</span>
+                </div>
               </li>
               <li class="products-item">
                 <div class="wrapper-product">
@@ -308,7 +317,9 @@
                   </h3>
                   <div class="price">4 900 руб.</div>
                 </div>
-                <div class="icon-new icon-new-on"><span class="icon-text">NEW</span></div>
+                <div class="icon-new icon-new-on">
+                  <span class="icon-text">NEW</span>
+                </div>
               </li>
             </ul>
 

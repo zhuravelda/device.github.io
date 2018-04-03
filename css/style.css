@@ -324,7 +324,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  display: none;
+  /* display: none; */
   background-color: #f7e296;
   position: relative;
   /* height: 200px;
