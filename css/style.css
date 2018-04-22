@@ -1,31 +1,31 @@
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/gilroyextrabold.woff2') format('woff2'),
-       url('../fonts/gilroyextrabold.woff') format('woff');
+  font-family: "Gilroy";
+  src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
+    url("../fonts/gilroyextrabold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/gilroylight.woff2') format('woff2'),
-       url('../fonts/gilroylight.woff') format('woff');
+  font-family: "Gilroy";
+  src: url("../fonts/gilroylight.woff2") format("woff2"),
+    url("../fonts/gilroylight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/opensans.woff2') format('woff2'),
-       url('../fonts/opensans.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.woff2") format("woff2"),
+    url("../fonts/opensans.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/opensanslight.woff2') format('woff2'),
-       url('../fonts/opensanslight.woff') format('woff');
+  font-family: "Open Sans";
+  src: url("../fonts/opensanslight.woff2") format("woff2"),
+    url("../fonts/opensanslight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
@@ -34,7 +34,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-style: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -49,19 +49,19 @@ a {
 
 li {
   list-style-type: none;
- }
+}
 
 ul {
   padding-left: 0;
 }
 
- .visually-hidden {
+.visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
- }
+}
 
 .main-logo:hover {
   opacity: 0.6;
@@ -81,7 +81,6 @@ ul {
 .header-user-navigation a:active {
   opacity: 0.3;
 }
-
 
 .nav-title a,
 .button-title a {
@@ -113,14 +112,13 @@ ul {
 }
 
 .link:active {
-  color: rgba(0, 0, 0, 0.3)
+  color: rgba(0, 0, 0, 0.3);
 }
-
-
-
 
 .wrapper {
   max-width: 1160px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 
@@ -134,8 +132,8 @@ ul {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-top: 40px;
   min-height: 300px;
 }
@@ -150,17 +148,17 @@ ul {
 }
 
 .form-search {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
 }
 
 .form-search input {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-style: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -178,7 +176,7 @@ ul {
 .form-search input:focus {
   border-bottom: 2px solid #000000;
   width: 440px;
-  opacity: 1.0;
+  opacity: 1;
   color: rgb(0, 0, 0);
 }
 
@@ -193,6 +191,7 @@ ul {
   top: 6px;
   left: 3px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .button-search button {
@@ -229,8 +228,8 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .user-navigation {
@@ -238,12 +237,12 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin: 0;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .block-user-navigation {
@@ -251,8 +250,8 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 214px;
   padding-left: 26px;
 }
@@ -264,7 +263,7 @@ ul {
 
 .nav-title,
 .button-title {
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   font-size: 18px;
@@ -277,8 +276,8 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 1042px;
   margin-top: 22px;
   padding: 0;
@@ -290,8 +289,8 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .nav-servise-title {
@@ -300,8 +299,8 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .catalog {
@@ -324,7 +323,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* display: none; */
+  display: none;
   background-color: #f7e296;
   position: relative;
   /* height: 200px;
@@ -337,8 +336,8 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 500px;
   position: relative;
 }
@@ -347,6 +346,7 @@ ul {
 .compare-icon,
 .cart-icon {
   display: inline-block;
+  vertical-align: middle;
   margin-right: 8px;
 }
 
@@ -358,6 +358,7 @@ ul {
   background-image: url(../img/user.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  vertical-align: middle;
   width: 13px;
   height: 12px;
 }
@@ -366,6 +367,7 @@ ul {
   background-image: url(../img/compare.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  vertical-align: middle;
   width: 10px;
   height: 10px;
 }
@@ -374,16 +376,16 @@ ul {
   background-image: url(../img/cart.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  vertical-align: middle;
   width: 10px;
   height: 10px;
 }
-
-
 
 .user-icon-footer,
 .compare-icon-footer,
 .cart-icon-footer {
   display: inline-block;
+  vertical-align: middle;
   margin-right: 8px;
 }
 
@@ -395,6 +397,7 @@ ul {
   background-image: url(../img/user-yellow.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  vertical-align: middle;
   width: 13px;
   height: 12px;
 }
@@ -403,6 +406,7 @@ ul {
   background-image: url(../img/compare-yellow.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  vertical-align: middle;
   width: 10px;
   height: 10px;
 }
@@ -411,15 +415,10 @@ ul {
   background-image: url(../img/cart-yellow.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  vertical-align: middle;
   width: 10px;
   height: 10px;
 }
-
-
-
-
-
-
 
 .exit {
   margin-left: -20px;
@@ -432,6 +431,7 @@ ul {
 .dropp {
   background-image: url(../img/plus.svg);
   display: inline-block;
+  vertical-align: middle;
   width: 16px;
   height: 16px;
   opacity: 0.3;
@@ -439,14 +439,13 @@ ul {
 
 /* Блок Слайдер */
 
-
 .slider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 1160px;
   min-height: 480px;
   margin-top: -110px;
@@ -462,7 +461,7 @@ ul {
   position: relative;
 }
 
-.selfish-stick img{
+.selfish-stick img {
   position: absolute;
   left: 90px;
   top: -2px;
@@ -472,23 +471,23 @@ ul {
   display: none;
 }
 
-.fitness-tracker img{
+.fitness-tracker img {
   position: absolute;
   left: 100px;
 }
 
 .dron {
-display: none;
+  display: none;
 }
 
-.dron img{
+.dron img {
   position: absolute;
   left: 30px;
   top: 63px;
 }
 
 .slider-content-title {
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 800;
   font-size: 47px;
   line-height: 56px;
@@ -505,7 +504,7 @@ display: none;
 }
 
 .number {
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 800;
   font-size: 179.2px;
   position: absolute;
@@ -532,8 +531,8 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 500px;
   margin-top: 25px;
 }
@@ -543,16 +542,20 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   min-width: 80px;
   margin-right: 20px;
 }
 
-
-
 .button-page {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0c52e), to(#f0c52e));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f0c52e),
+    to(#f0c52e)
+  );
   background-image: -webkit-linear-gradient(#f0c52e, #f0c52e);
   background-image: -o-linear-gradient(#f0c52e, #f0c52e);
   background-image: linear-gradient(#f0c52e, #f0c52e);
@@ -592,7 +595,7 @@ display: none;
 }
 
 .significance-characteristics {
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.01em;
@@ -614,6 +617,7 @@ display: none;
 .significance-characteristics-main td,
 .feature-name-main td {
   display: inline-block;
+  vertical-align: middle;
   /* padding-right: 80px; */
 }
 
@@ -625,13 +629,13 @@ display: none;
   padding-right: 70px;
 }
 
-
 .switch-button {
   background-repeat: no-repeat;
   background-size: 12px 12px;
   width: 12px;
   height: 12px;
   display: inline-block;
+  vertical-align: middle;
   position: relative;
   top: 7px;
   right: 1px;
@@ -647,14 +651,13 @@ display: none;
 
 /* Блок Категории товаров */
 
-
 .products-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 100px;
 }
 
@@ -713,20 +716,31 @@ display: none;
 }
 
 .categories-product {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7e296), to(#f7e296));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f7e296),
+    to(#f7e296)
+  );
   background-image: -webkit-linear-gradient(#f7e296, #f7e296);
   background-image: -o-linear-gradient(#f7e296, #f7e296);
   background-image: linear-gradient(#f7e296, #f7e296);
   background-size: 100% 60%;
   background-repeat: no-repeat;
-
 }
 
 .categories-product:hover {
-  background-image: -webkit-gradient( linear, left top, left bottom, from(#f0c52e), to(#f0c52e));
-  background-image: -webkit-linear-gradient( #f0c52e, #f0c52e);
-  background-image: -o-linear-gradient( #f0c52e, #f0c52e);
-  background-image: linear-gradient( #f0c52e, #f0c52e);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f0c52e),
+    to(#f0c52e)
+  );
+  background-image: -webkit-linear-gradient(#f0c52e, #f0c52e);
+  background-image: -o-linear-gradient(#f0c52e, #f0c52e);
+  background-image: linear-gradient(#f0c52e, #f0c52e);
 }
 
 .categories-product:active {
@@ -743,11 +757,12 @@ display: none;
 
 .title-product a {
   display: inline-block;
+  vertical-align: middle;
   height: 100%;
 }
 
 .title-product a {
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -756,7 +771,7 @@ display: none;
 }
 
 .title-product a:active {
-  color: rgba(0, 0, 0, 0.3)
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .name-price > .title-product {
@@ -817,14 +832,12 @@ display: none;
   transition: 0.5s;
 }
 
-
-
 /* .delivery {
   display: none;
 } */
 
-.block-title{
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+.block-title {
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 800;
   font-size: 47px;
   line-height: 48px;
@@ -893,8 +906,8 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
 }
@@ -913,7 +926,7 @@ display: none;
 .partners-dji:hover {
   background-image: url(../img/logo-dji-color.jpg);
   background-repeat: no-repeat;
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .partners-gadgest {
@@ -925,7 +938,7 @@ display: none;
 .partners-gadgest:hover {
   background-image: url(../img/logo-gadgest-color.jpg);
   background-repeat: no-repeat;
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .partners-gopro {
@@ -937,7 +950,7 @@ display: none;
 .partners-gopro:hover {
   background-image: url(../img/logo-gopro-color.jpg);
   background-repeat: no-repeat;
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .partners-vive {
@@ -949,20 +962,21 @@ display: none;
 .partners-vive:hover {
   background-image: url(../img/logo-vive-color.jpg);
   background-repeat: no-repeat;
-  opacity: 1.0;
+  opacity: 1;
 }
 
- /* Блок Онас/Контакты */
+/* Блок Онас/Контакты */
 
 .info-about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 90px;
   position: relative;
+  padding-bottom: 82px;
 }
 
 .about,
@@ -980,7 +994,7 @@ display: none;
 }
 
 .contacts .button-page,
-.about  .button-page {
+.about .button-page {
   width: 260px;
 }
 
@@ -989,7 +1003,6 @@ display: none;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
-
 }
 
 .about p,
@@ -997,7 +1010,6 @@ display: none;
   color: #464646;
   font-size: 15px;
   line-height: 30px;
-
 }
 
 .about .link {
@@ -1010,7 +1022,7 @@ display: none;
 }
 
 .list-about {
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 800;
   font-size: 16px;
   line-height: 40px;
@@ -1039,11 +1051,11 @@ display: none;
 }
 
 .close:hover {
- opacity: 1.0;
+  opacity: 1;
 }
 
 .close:active {
- opacity: 0.3;
+  opacity: 0.3;
 }
 
 .map {
@@ -1060,7 +1072,7 @@ display: none;
 
 .map-big > img {
   -webkit-box-shadow: 0 10px 20px 0 rgba(4, 6, 6, 0.2);
-          box-shadow: 0 10px 20px 0 rgba(4, 6, 6, 0.2);
+  box-shadow: 0 10px 20px 0 rgba(4, 6, 6, 0.2);
 }
 
 .form-contacts {
@@ -1069,14 +1081,14 @@ display: none;
   width: 760px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 10px 20px 0 rgba(4, 6, 6, 0.2);
-          box-shadow: 0 10px 20px 0 rgba(4, 6, 6, 0.2);
+  box-shadow: 0 10px 20px 0 rgba(4, 6, 6, 0.2);
   margin: 0;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 78px;
   position: absolute;
   top: -760px;
-  left: -500px
+  left: -500px;
 }
 
 .personal-data {
@@ -1084,8 +1096,8 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 30px;
 }
 
@@ -1108,7 +1120,6 @@ display: none;
   margin-bottom: 20px;
 }
 
-
 /* Блок Подвал */
 
 .footer-user {
@@ -1116,8 +1127,8 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .logo-footer:hover {
@@ -1143,21 +1154,21 @@ display: none;
   right: -1px;
 }
 
-.footer-user-navigation a{
+.footer-user-navigation a {
   line-height: 36px;
-  color: rgba(255, 255, 255, 0.7)
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-user-navigation a:hover {
-  color: rgba(255, 255, 255, 1.0)
+  color: rgba(255, 255, 255, 1);
 }
 
 .footer-user-navigation a:active {
-  color: rgba(255, 255, 255, 0.3)
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .footer-nav .nav-title a {
-  color: rgba(255, 255, 255, 1.0)
+  color: rgba(255, 255, 255, 1);
 }
 
 .footer-nav {
@@ -1165,18 +1176,18 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   min-width: 430px;
   padding-right: 40px;
 }
 
 .footer-nav .nav-title a:hover {
-  color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-nav .nav-title a:active {
-  color: rgba(255, 255, 255, 0.3)
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .footer-service {
@@ -1184,8 +1195,8 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 10px;
   position: relative;
 }
@@ -1211,8 +1222,8 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .footer-icon {
@@ -1220,8 +1231,8 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   min-width: 140px;
   padding-right: 53px;
   /* padding-left: 100px; */
@@ -1231,10 +1242,11 @@ display: none;
 .social {
   width: 32px;
   height: 32px;
+  border-radius: 50%;
 }
 
 .icon-facebook {
-  margin-right: - 12px;
+  margin-right: -12px;
   background-image: url(../img/fb.svg);
   background-repeat: no-repeat;
   opacity: 0.3;
@@ -1291,11 +1303,12 @@ display: none;
 .logo-academy {
   background-image: url(../img/logo-html.svg);
   background-repeat: no-repeat;
-  opacity: 1.0;
+  opacity: 1;
   min-height: 35px;
   min-width: 27px;
   margin-top: 45px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .logo-academy:hover {
@@ -1311,7 +1324,7 @@ display: none;
 }
 
 label {
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -1334,8 +1347,6 @@ textarea[id="text"]:hover {
   background-color: #464646;
   opacity: 0.8;
  } */
-
-
 
 /* Шапка Каталога */
 
@@ -1363,8 +1374,8 @@ textarea[id="text"]:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 760px;
   margin-left: 72px;
 }
@@ -1390,6 +1401,7 @@ textarea[id="text"]:hover {
 
 .nav-arrow {
   display: inline-block;
+  vertical-align: middle;
   background-image: url(../img/nav-arrow.svg);
   background-repeat: no-repeat;
   margin-left: 13px;
@@ -1403,15 +1415,15 @@ textarea[id="text"]:hover {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.01em;
-  color: rgba(0, 0, 0, 0.3)
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .breadcrumbs a:hover {
-  color: rgba(0, 0, 0, 0.6)
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .breadcrumbs a:active {
-  color: rgba(0, 0, 0, 0.1)
+  color: rgba(0, 0, 0, 0.1);
 }
 
 .header-product-nav {
@@ -1467,12 +1479,13 @@ textarea[id="text"]:hover {
 
 .filter-header-name {
   display: inline-block;
+  vertical-align: middle;
   float: right;
   width: 265px;
 }
 
 .filter {
-  background-image: url('../img/background-side.jpg');
+  background-image: url("../img/background-side.jpg");
   background-repeat: repeat;
   background-color: #efefef;
   width: 33.5%;
@@ -1484,7 +1497,6 @@ textarea[id="text"]:hover {
   padding-top: 49px;
   width: 270px;
   float: right;
-
 }
 
 .form-filter {
@@ -1493,11 +1505,9 @@ textarea[id="text"]:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
-
-
 
 .products-side {
   padding-top: 69px;
@@ -1511,8 +1521,8 @@ textarea[id="text"]:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 760px;
   margin-left: 72px;
 }
@@ -1523,10 +1533,10 @@ textarea[id="text"]:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .products-item {
@@ -1540,8 +1550,8 @@ textarea[id="text"]:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   /* align-items: baseline; */
   margin-top: 1px;
 }
@@ -1556,16 +1566,16 @@ textarea[id="text"]:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   display: none;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .filter-goods {
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 800;
   font-size: 16px;
   line-height: 24px;
@@ -1591,6 +1601,7 @@ textarea[id="text"]:hover {
   background-image: url(../img/radio-off.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  vertical-align: middle;
   width: 25px;
   height: 25px;
   position: relative;
@@ -1618,6 +1629,7 @@ textarea[id="text"]:hover {
   background-image: url(../img/checkbox-on.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  vertical-align: middle;
   width: 27px;
   height: 24px;
   position: relative;
@@ -1638,6 +1650,7 @@ textarea[id="text"]:hover {
   background-image: url(../img/checkbox-off.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  vertical-align: middle;
   width: 27px;
   height: 24px;
   position: relative;
@@ -1659,9 +1672,9 @@ textarea[id="text"]:hover {
 .price-line {
   width: 100%;
   height: 2px;
-  background-image: -webkit-linear-gradient( left, #91c92f 120px, #dbdbdb 80px);
-  background-image: -o-linear-gradient( left, #91c92f 120px, #dbdbdb 80px);
-  background-image: linear-gradient( to right, #91c92f 120px, #dbdbdb 80px);
+  background-image: -webkit-linear-gradient(left, #91c92f 120px, #dbdbdb 80px);
+  background-image: -o-linear-gradient(left, #91c92f 120px, #dbdbdb 80px);
+  background-image: linear-gradient(to right, #91c92f 120px, #dbdbdb 80px);
   margin-top: 34px;
   margin-bottom: 15px;
 }
@@ -1671,6 +1684,7 @@ textarea[id="text"]:hover {
   background-image: url(../img/filter-button.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  vertical-align: middle;
   width: 20px;
   height: 22px;
   position: absolute;
@@ -1697,7 +1711,7 @@ textarea[id="text"]:hover {
 .value-min,
 .value-max {
   position: absolute;
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
@@ -1710,7 +1724,7 @@ textarea[id="text"]:hover {
 }
 
 .block-filter > .title-product {
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -1724,7 +1738,7 @@ textarea[id="text"]:hover {
 
 .filter-color .color,
 .filter-bluetooth label {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 40px;
@@ -1765,15 +1779,15 @@ textarea[id="text"]:hover {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: rgba(0, 0, 0, 0.3)
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .filter-btn:hover {
-  color: rgba(0, 0, 0, 0.6)
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .filter-btn:active {
-  color: rgba(0, 0, 0, 1.0)
+  color: rgba(0, 0, 0, 1);
 }
 
 .header-filter {
@@ -1781,8 +1795,8 @@ textarea[id="text"]:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   min-width: 280px;
   padding: 0 12px;
   margin-right: 220px;
@@ -1793,8 +1807,8 @@ textarea[id="text"]:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 42px;
 }
 
@@ -1812,16 +1826,16 @@ textarea[id="text"]:hover {
 }
 
 .header-filter-top:active {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .header-filter-bottom {
-  background-image: url(../img/icon-down-dir.svg);
-  background-repeat: no-repeat;
   width: 11px;
   height: 14px;
-  opacity: 1.0;
+  opacity: 1;
   border: 0;
+  background-image: url(../img/icon-down-dir.svg);
+  background-repeat: no-repeat;
 }
 
 .header-filter-bottom:hover {
@@ -1829,7 +1843,7 @@ textarea[id="text"]:hover {
 }
 
 .header-filter-bottom:active {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .header-filter > .filter-btn {
@@ -1848,7 +1862,7 @@ textarea[id="text"]:hover {
 
 .button-card {
   color: #000000;
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -1857,7 +1871,6 @@ textarea[id="text"]:hover {
 
 .button-card:active {
   color: rgba(0, 0, 0, 0.3);
-
 }
 
 .compare-product {
@@ -1872,7 +1885,7 @@ textarea[id="text"]:hover {
 }
 
 .compare-product:hover {
-  color: rgba(0, 0, 0, 1.0);
+  color: rgba(0, 0, 0, 1);
 }
 
 .compare-product:active {
@@ -1880,7 +1893,7 @@ textarea[id="text"]:hover {
 }
 
 .price {
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -1901,16 +1914,17 @@ textarea[id="text"]:hover {
   padding-left: 10px;
   padding-top: 15px;
   color: rgba(0, 0, 0, 0.2);
-  font-family: Gilroy, 'Myriad Pro', sans-serif;
+  font-family: Gilroy, "Myriad Pro", sans-serif;
   font-weight: 800;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.2em;
-display: none;
+  display: none;
 }
 
 .icon-text {
   display: inline-block;
+  vertical-align: middle;
   position: relative;
   top: 5px;
   left: 5px;
@@ -1922,20 +1936,27 @@ display: none;
 
 /* Блок Навигация по страницам с товаром */
 
-.page {
-  margin-left: 28px;
+.nav-page-products .page {
+  height: 70px;
+  vertical-align: middle;
 }
 
 .page a {
-  color: rgba(0, 0, 0, 0.3)
+  margin-left: 28px;
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+.page a {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .page a:hover {
-  color: rgba(0, 0, 0, 0.6)
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .page a:active {
-  color: rgba(0, 0, 0, 1.0)
+  color: rgba(0, 0, 0, 1);
 }
 
 .nav-page {
@@ -1943,12 +1964,14 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   background-color: #ebebeb;
   margin-bottom: 77px;
   margin-top: -12px;
   padding: 0;
+  width: 760px;
+  height: 70px;
 }
 
 .nav-page-products {
@@ -1956,18 +1979,17 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: -3px;
+  -ms-flex-align: center;
+  align-items: center;
   margin-left: -25px;
 }
 
 .pages-before {
   -webkit-box-ordinal-group: 0;
-      -ms-flex-order: -1;
-          order: -1;
+  -ms-flex-order: -1;
+  order: -1;
 }
 
 .pages-before:hover {
@@ -1993,8 +2015,11 @@ display: none;
 .button-nav {
   border: 0;
   background-color: #ebebeb;
-  height: 70px;
+  line-height: 70px;
+  vertical-align: middle;
   width: 127px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .first-page a {
@@ -2008,7 +2033,6 @@ display: none;
 .footer-nav-catalog .exit {
   margin-left: -25px;
 }
-
 
 /*
 .button-page-catalog {
