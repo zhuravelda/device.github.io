@@ -189,8 +189,7 @@
               </li>
             </ul>
 
-            <ul class="block-filter filter-color">
-
+            <!-- <ul class="block-filter filter-color">
               <li class="title-product">Цвет</li>
               <li>
                 <label class="color" for="colour-black">
@@ -217,21 +216,47 @@
                   <span class="color-none"></span>Розовый</label>
                 <input class="visually-hidden" type="checkbox" name="colour" id="colour-pink" value="Розовый">
               </li>
+            </ul> -->
 
-            </ul>
-            <ul class="block-filter filter-bluetooth">
-              <li class="title-product">Bluetooth</li>
-              <li>
+            <div class="block-filter filter-color">
+              <h3 class="title-product">Цвет</h3>
+              <input class="visually-hidden" type="checkbox" name="colour" id="colour-black" value="Черный" checked>
+              <input class="visually-hidden" type="checkbox" name="colour" id="colour-white" value="Белый">
+              <input class="visually-hidden" type="checkbox" name="colour" id="colour-blue" value="Синий" checked>
+              <input class="visually-hidden" type="checkbox" name="colour" id="colour-red" value="Красный" checked>
+              <input class="visually-hidden" type="checkbox" name="colour" id="colour-pink" value="Розовый">
+              <div class="color-choice">
+                <label class="color" for="colour-black">
+                  <span class="color-none"></span>Черный</label>
+
+                <label class="color" for="colour-white">
+                  <span class="color-none"></span>Белый</label>
+
+                <label class="color" for="colour-blue">
+                  <span class="color-none"></span>Синий</label>
+
+                <label class="color" for="colour-red">
+                  <span class="color-none"></span>Красный</label>
+
+                <label class="color" for="colour-pink">
+                  <span class="color-none"></span>Розовый</label>
+              </div>
+            </div>
+
+
+            <div class="block-filter filter-bluetooth">
+              <h3 class="title-product">Bluetooth</h3>
+              <input class="visually-hidden" type="radio" id="bluetooth-yes" name="bluetooth" value="Да" checked>
+              <input class="visually-hidden" type="radio" id="bluetooth-no" name="bluetooth" value="Нет">
+              <div class="bluetooth-label">
                 <label for="bluetooth-yes">
-                  <span class="bluetooth bluetooth-on"></span>Есть</label>
-                <input class="visually-hidden" type="radio" id="bluetooth-yes" name="bluetooth" value="Да" checked>
-              </li>
-              <li>
+                  <span class="bluetooth-text">Есть</span>
+                </label>
                 <label for="bluetooth-no">
-                  <span class="bluetooth"></span>Нет</label>
-                <input class="visually-hidden" type="radio" id="bluetooth-no" name="bluetooth" value="Нет">
-              </li>
-            </ul>
+                  <span class="bluetooth-text">Нет</span>
+                </label>
+              </div>
+            </div>
             <button class="button-page button-title" type="submit">Показать</button>
           </form>
         </aside>

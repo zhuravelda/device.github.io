@@ -1597,33 +1597,22 @@ textarea[id="text"]:hover {
   padding-top: 11px;
 }
 
-.bluetooth {
-  background-image: url(../img/radio-off.svg);
+.filter-color .color-choice {
+  display: flex;
+  flex-direction: column;
+}
+
+#colour-black:checked ~ .color-choice label[for="colour-black"],
+#colour-white:checked ~ .color-choice label[for="colour-white"],
+#colour-blue:checked ~ .color-choice label[for="colour-blue"],
+#colour-red:checked ~ .color-choice label[for="colour-red"],
+#colour-pink:checked ~ .color-choice label[for="colour-pink"] {
+  background-image: url(../img/checkbox-on.svg);
   background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: middle;
-  width: 25px;
-  height: 25px;
-  position: relative;
-  top: 5px;
-  margin-right: 15px;
+  background-position: 0 14px;
 }
 
-.bluetooth:hover {
-  opacity: 0.6;
-}
 
-.bluetooth:active {
-  background-image: url(../img/radio-on.svg);
-}
-
-.bluetooth:focus {
-  background-image: url(../img/radio-on.svg);
-}
-
-.bluetooth-on {
-  background-image: url(../img/radio-on.svg);
-}
 
 .color-active {
   background-image: url(../img/checkbox-on.svg);
@@ -1637,14 +1626,81 @@ textarea[id="text"]:hover {
   margin-right: 12px;
 }
 
-.color-active:hover {
+
+
+
+
+.filter-bluetooth .bluetooth-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.bluetooth-label {
+  position: relative;
+}
+
+.bluetooth-label .bluetooth-text {
+  position: absolute;
+  top: -10px;
+  left: 40px;
+}
+
+.bluetooth-label label {
+  background-image: url(../img/radio-off.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 5px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.bluetooth-label label:hover {
+  opacity: 0.6;
+}
+.bluetooth-label label:focus {
+  opacity: 1;
+}
+
+#bluetooth-yes:checked ~ .bluetooth-label label[for="bluetooth-yes"],
+#bluetooth-no:checked ~ .bluetooth-label label[for="bluetooth-no"] {
+  background-image: url(../img/radio-on.svg);
+}
+
+#bluetooth-yes:active ~ .bluetooth-label label[for="bluetooth-yes"],
+#bluetooth-no:active ~ .bluetooth-label label[for="bluetooth-no"] {
+  opacity: 1;
+  background-image: url(../img/radio-on.svg);
+}
+
+/* .color-active {
+  background-image: url(../img/checkbox-on.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 27px;
+  height: 24px;
+  position: relative;
+  top: 5px;
+  margin-right: 12px;
+} */
+
+.color:hover {
   opacity: 0.6;
 }
 
-.color-active:active {
-  background-image: url(../img/checkbox-off.svg);
+.color:active {
   opacity: 1;
 }
+
+/* .color-active:active {
+  background-image: url(../img/checkbox-off.svg);
+  opacity: 1;
+} */
 
 .color-none {
   background-image: url(../img/checkbox-off.svg);
