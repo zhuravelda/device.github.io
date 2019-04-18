@@ -26,7 +26,7 @@
               <button type="submit">Найти</button>
             </div>
           </form>
-          <ul class="user-navigation">
+          <ul class="user-block-navigation">
             <li class="header-user-navigation enter">
               <a href="#">
                 <span class="user-icon"></span>Войти</a>
@@ -44,12 +44,12 @@
           </ul>
         </div>
         <nav class="main-nav">
+          <div class="nav-title catalog-product">
+            <a href="catalog.html">Каталог товаров</a>
+          </div>
+          <input class="visually-hidden" type="checkbox" name="open" id="open-menu" value="open-menu">
+          <label class="open-menu" for="open-menu"></label>
           <ul class="catalog">
-            <li class="nav-title">
-              <a href="catalog.html">Каталог товаров
-              <span class="dropp"></span>
-            </a>
-            </li>
             <li class="header-nav-deployed">
               <ul class="sub-menu">
                 <li>
@@ -82,8 +82,8 @@
             </li>
           </ul>
           <ul class="nav-servise">
-            <li class="nav-servise-title">
-              <ul>
+            <li>
+              <ul class="nav-servise-title">
                 <li class="nav-title">
                   <a href="#">Доставка</a>
                 </li>
@@ -107,142 +107,111 @@
 
     <h1 class="visually-hidden">Device</h1>
     <div class="wrapper">
-      <h2 class="visually-hidden">Слайдер товаров</h2>
       <section class="slider">
-        <div class="slider-img">
-          <a class="selfish-stick" href="#">
-            <img src="img/slider-selfish-stick.png" alt="Селфи-палки">
-          </a>
-          <a class="fitness-tracker" href="#">
-            <img src="img/slider-fitness-tracker.png" alt="Фитнеc-трекер">
-          </a>
-          <a class="dron" href="#">
-            <img src="img/slider-dron.png" alt="Квадрокоптер">
-          </a>
-        </div>
-        <div class="slider-content selfish-stick">
-          <div class="white-line"></div>
-          <div class="number">01</div>
-          <p class="slider-content-title">
-            Делай селфи,
-            <br> как Бен Стиллер!
-          </p>
-          <p class="slider-content-discription">Самая длинная палка для селфи доступна в нашем магазине.
-            <br>Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
-          </p>
-          <div class="nav-slider">
-            <p class="button-page button-title">
-              <a href="#">Подробнее</a>
-            </p>
-            <form action="https://echo.htmlacademy.ru/" method="post">
-              <ul class="switch">
-                <li>
-                  <label class="switch-button switch-on" for="slaider-1"></label>
-                  <input class="visually-hidden" type="radio" id="slaider-1" aria-label="Перейти на слайд 1">
-                </li>
-                <li>
-                  <label class="switch-button switch-off" for="slaider-2"></label>
-                  <input class="visually-hidden" type="radio" id="slaider-2" aria-label="Перейти на слайд 2">
-                </li>
-                <li>
-                  <label class="switch-button switch-off" for="slaider-3"></label>
-                  <input class="visually-hidden" type="radio" id="slaider-3" aria-label="Перейти на слайд 3">
-                </li>
-              </ul>
-            </form>
+        <h2 class="visually-hidden">Слайдер товаров</h2>
+        <div class="slider-pic"></div>
+        <div class="slider-content">
+          <input class="visually-hidden" type="radio" name="slider" id="slider-1" aria-label="Перейти на слайд 1" checked>
+          <input class="visually-hidden" type="radio" name="slider" id="slider-2" aria-label="Перейти на слайд 2">
+          <input class="visually-hidden" type="radio" name="slider" id="slider-3" aria-label="Перейти на слайд 3">
+          <div class="switch">
+            <label class="switch-button" for="slider-1"></label>
+            <label class="switch-button" for="slider-2"></label>
+            <label class="switch-button" for="slider-3"></label>
           </div>
-          <table class="characteristics">
-            <tr class="significance-characteristics-main">
-              <td class="significance-characteristics characteristics-column-1">8,5 м</td>
-              <td class="significance-characteristics characteristics-column-2">5 кг</td>
-              <td class="significance-characteristics characteristics-column-3">Карбон</td>
-            </tr>
-            <tr class="feature-name-main">
-              <td class="feature-name characteristics-column-1">Длина палки</td>
-              <td class="feature-name characteristics-column-2">Вес палки</td>
-              <td class="feature-name characteristics-column-3">Материал</td>
-            </tr>
-          </table>
-        </div>
-        <div class="slider-content fitness-tracker">
-          <div class="white-line"></div>
-          <div class="number">02</div>
-          <p class="slider-content-title">
-            Худеем
-            <br> правильно!
-          </p>
-          <p class="slider-content-discription">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
-          </p>
-          <div class="nav-slider">
-            <p class="button-page button-title">
-              <a href="#">Подробнее</a>
-            </p>
-            <!-- <form action="https://echo.htmlacademy.ru/" method="post">
-              <ul class="switch">
-                <li>
-                  <label class="switch-button switch-on" for="slaider-1"></label>
-                  <input class="visually-hidden" type="radio" id="slaider-1" aria-label="Перейти на слайд 1">
-                </li>
-                <li>
-                  <label class="switch-button switch-off" for="slaider-2"></label>
-                  <input class="visually-hidden" type="radio" id="slaider-2" aria-label="Перейти на слайд 2">
-                </li>
-                <li>
-                  <label class="switch-button switch-off" for="slaider-3"></label>
-                  <input class="visually-hidden" type="radio" id="slaider-3" aria-label="Перейти на слайд 3">
-                </li>
-              </ul>
-            </form> -->
+          <div class="selfish-stick">
+            <a href="#">
+              <img src="img/slider-selfish-stick.png" alt="Селфи-палки">
+            </a>
           </div>
-          <table class="characteristics">
-            <tr class="significance-characteristics-main">
-              <td class="significance-characteristics characteristics-column-1">48 часов</td>
-            </tr>
-            <tr class="significance-characteristics-main">
-              <td class="significance-characteristics characteristics-column-1">Без подзарядки</td>
-            </tr>
-          </table>
-        </div>
-        <div class="slider-content dron">
-          <div class="white-line"></div>
-          <div class="number">03</div>
-          <p class="slider-content-title">
-            Порхает как бабочка,
-            <br> жалит как пчела!
-          </p>
-          <p class="slider-content-discription">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
-          </p>
-          <div class="nav-slider">
-            <p class="button-page button-title">
-              <a href="#">Подробнее</a>
-            </p>
-            <!-- <form action="https://echo.htmlacademy.ru/" method="post">
-              <ul class="switch">
-                <li>
-                  <label class="switch-button switch-on" for="slaider-1"></label>
-                  <input class="visually-hidden" type="radio" id="slaider-1" aria-label="Перейти на слайд 1">
-                </li>
-                <li>
-                  <label class="switch-button switch-off" for="slaider-2"></label>
-                  <input class="visually-hidden" type="radio" id="slaider-2" aria-label="Перейти на слайд 2">
-                </li>
-                <li>
-                  <label class="switch-button switch-off" for="slaider-3"></label>
-                  <input class="visually-hidden" type="radio" id="slaider-3" aria-label="Перейти на слайд 3">
-                </li>
-              </ul>
-            </form> -->
+          <div class="fitness-tracker">
+            <a href="#">
+              <img src="img/slider-fitness-tracker.png" alt="Фитнеc-трекер">
+            </a>
           </div>
-          <table class="characteristics">
-            <tr class="significance-characteristics-main">
-              <td class="significance-characteristics characteristics-column-1">800 м </td>
-              <td class="significance-characteristics characteristics-column-1">50 м</td>
-            </tr>
-            <tr class="significance-characteristics-main">
-              <td class="significance-characteristics characteristics-column-1">Дальность полета</td>
-              <td class="significance-characteristics characteristics-column-1">Радиус поражения</td>
-            </tr>
-          </table>
+          <div class="dron">
+            <a href="#">
+              <img src="img/slider-dron.png" alt="Квадрокоптер">
+            </a>
+          </div>
+          <div class="selfish-stick">
+            <div class="white-line"></div>
+            <div class="number">01</div>
+            <p class="slider-content-title">
+              Делай селфи,
+              <br> как Бен Стиллер!
+            </p>
+            <p class="slider-content-discription">Самая длинная палка для селфи доступна в нашем магазине.
+              <br>Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+            </p>
+            <div class="nav-slider">
+              <p class="button-page button-title">
+                <a href="#">Подробнее</a>
+              </p>
+            </div>
+            <table class="characteristics">
+              <tr class="significance-characteristics-main">
+                <td class="significance-characteristics characteristics-column-1">8,5 м</td>
+                <td class="significance-characteristics characteristics-column-2">5 кг</td>
+                <td class="significance-characteristics characteristics-column-3">Карбон</td>
+              </tr>
+              <tr class="feature-name-main">
+                <td class="feature-name characteristics-column-1">Длина палки</td>
+                <td class="feature-name characteristics-column-2">Вес палки</td>
+                <td class="feature-name characteristics-column-3">Материал</td>
+              </tr>
+            </table>
+          </div>
+          <div class="fitness-tracker">
+            <div class="white-line"></div>
+            <div class="number">02</div>
+            <p class="slider-content-title">
+              Худеем
+              <br> правильно!
+            </p>
+            <p class="slider-content-discription">Мотивирующие фитнес-браслеты помогут найти в себе силы
+              <br> не пропускать занятия и соблюдать диету.
+            </p>
+            <div class="nav-slider">
+              <p class="button-page button-title">
+                <a href="#">Подробнее</a>
+              </p>
+            </div>
+            <table class="characteristics">
+              <tr class="significance-characteristics-main">
+                <td class="significance-characteristics characteristics-column-1">48 часов</td>
+              </tr>
+              <tr class="feature-name-main">
+                <td class="feature-name characteristics-column-1">Без подзарядки</td>
+              </tr>
+            </table>
+          </div>
+          <div class="dron">
+            <div class="white-line"></div>
+            <div class="number">03</div>
+            <p class="slider-content-title">
+              Порхает как бабочка,
+              <br> жалит как пчела!
+            </p>
+            <p class="slider-content-discription">Этот обычный, на первый взгляд, квадрокоптер оснащен
+              <br> мощным лазером, замаскированным под стандартную камеру.
+            </p>
+            <div class="nav-slider">
+              <p class="button-page button-title">
+                <a href="#">Подробнее</a>
+              </p>
+            </div>
+            <table class="characteristics">
+              <tr class="significance-characteristics-main">
+                <td class="significance-characteristics characteristics-column-1">800 м </td>
+                <td class="significance-characteristics characteristics-column-2">50 м</td>
+              </tr>
+              <tr class="feature-name-main">
+                <td class="feature-name characteristics-column-1">Дальность полета</td>
+                <td class="feature-name characteristics-column-2">Радиус поражения</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </section>
     </div>
@@ -254,66 +223,52 @@
         <h2 class="visually-hidden">Категории товаров</h2>
         <ul class="products-group">
           <li class="categories-product">
-            <div class="product-item virtual-reality">
-              <a href="#">
+            <a href="#">
+              <div class="product-item virtual-reality">
                 <img src="img/popular-1.svg" alt="Вииртуальная реальность">
-              </a>
-            </div>
-            <h3 class="title-product">
-              <a href="#">Виртуальная
-                реальность</a>
-            </h3>
+              </div>
+              <h3 class="title-product">Виртуальная реальность</h3>
+            </a>
           </li>
           <li class="categories-product">
-            <div class="product-item monopods-selfie">
-              <a href="#">
+            <a href="#">
+              <div class="product-item monopods-selfie">
                 <img src="img/popular-2.svg" alt="Моноподы для селфи">
-              </a>
-            </div>
-            <h3 class="title-product">
-              <a href="#">Моноподы
-                для&nbsp;селфи</a>
-            </h3>
+              </div>
+              <h3 class="title-product">Моноподы для&nbsp;селфи</h3>
+            </a>
           </li>
           <li class="categories-product">
-            <div class="product-item action-cameras">
-              <a href="#">
+            <a href="#">
+              <div class="product-item action-cameras">
                 <img src="img/popular-3.svg" alt="Экшн-камеры">
-              </a>
-            </div>
-            <h3 class="title-product">
-              <a href="#">Экшн-камеры</a>
-            </h3>
+              </div>
+              <h3 class="title-product">Экшн-камеры</h3>
+            </a>
           </li>
           <li class="categories-product">
-            <div class="product-item fitness-bracelets">
-              <a href="#">
+            <a href="#">
+              <div class="product-item fitness-bracelets">
                 <img src="img/popular-4.svg" alt="Фитнес-браслеты">
-              </a>
-            </div>
-            <h3 class="title-product">
-              <a href="#">Фитнес-браслеты</a>
-            </h3>
+              </div>
+              <h3 class="title-product">Фитнес-браслеты</h3>
+            </a>
           </li>
           <li class="categories-product">
-            <div class="product-item smart-watch">
-              <a href="#">
+            <a href="#">
+              <div class="product-item smart-watch">
                 <img src="img/popular-5.svg" alt="Умные часы">
-              </a>
-            </div>
-            <h3 class="title-product">
-              <a href="#">Умные часы</a>
-            </h3>
+              </div>
+              <h3 class="title-product">Умные часы</h3>
+            </a>
           </li>
           <li class="categories-product">
-            <div class="product-item quadrocopters">
-              <a href="#">
+            <a href="#">
+              <div class="product-item quadrocopters">
                 <img src="img/poppular-6.svg" alt="Квадрокоптеры">
-              </a>
-            </div>
-            <h3 class="title-product">
-              <a href="#">Квадрокоптеры</a>
-            </h3>
+              </div>
+              <h3 class="title-product">Квадрокоптеры</h3>
+            </a>
           </li>
         </ul>
       </section>
@@ -321,24 +276,29 @@
 
     <!-- Болк Сервис -->
 
+
+
     <section class="services">
       <div class="wrapper">
         <h2 class="visually-hidden">Сервис</h2>
+        <input class="visually-hidden" type="radio" name="services" id="servic-delivery" value="Доставка" checked>
+        <input class="visually-hidden" type="radio" name="services" id="servic-warranty" value="Гарантия">
+        <input class="visually-hidden" type="radio" name="services" id="servic-credit" value="Кредит">
         <ul class="our-services">
-          <li class="link button-title">
-            <div class="button-page delivery-button">
-              <a href="#">Доставка</a>
-            </div>
+          <li class=" delivery-button button-servic">
+            <label class="" for="servic-delivery">
+              <span class="label-delivery">Доставка</span>
+            </label>
           </li>
-          <li class="link button-title">
-            <div class="button-page warranty-button">
-              <a href="#">Гарантия</a>
-            </div>
+          <li class="warranty-button button-servic">
+            <label class="" for="servic-warranty">
+              <span class="label-warranty">Гарантия</span>
+            </label>
           </li>
-          <li class="link button-title">
-            <div class="button-page credit-button">
-              <a href="#">Кредит</a>
-            </div>
+          <li class="credit-button button-servic">
+            <label class="" for="servic-credit">
+              <span class="label-credit">Кредит</span>
+            </label>
           </li>
         </ul>
         <ul class="services-description">
@@ -451,9 +411,7 @@
                 <textarea id="text" name="text" rows="8" placeholder="В свободной форме"></textarea>
               </li>
             </ul>
-            <div class="button-page button-title">
-              <button type="submit">Отправить</button>
-            </div>
+            <button class="button-page button-title" type="submit">Отправить</button>
             <button class="close" aria-label="Закрыть форму"></button>
           </form>
         </section>

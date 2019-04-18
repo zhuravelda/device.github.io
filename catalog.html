@@ -28,7 +28,7 @@
               <button type="submit">Найти</button>
             </div>
           </form>
-          <ul class="user-navigation">
+          <ul class="user-block-navigation">
             <li class="header-user-navigation name-user">
               <a href="https://htmlacademy.ru/profile/id438365">
                 <span class="user-icon"></span>Валентин Петухов
@@ -52,39 +52,41 @@
           </ul>
         </div>
         <nav class="main-nav">
+          <div class="nav-title catalog-product">
+            <a href="catalog.html">Каталог товаров</a>
+          </div>
+          <input class="visually-hidden" type="checkbox" name="open" id="open-menu" value="open-menu">
+          <label class="open-menu" for="open-menu"></label>
           <ul class="catalog">
+            <li class="header-nav-deployed">
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">Виртуальная реальность</a>
+                </li>
+                <li>
+                  <a href="#">Моноподы для селфи</a>
+                </li>
+                <li>
+                  <a href="#">Экшн-камеры</a>
+                </li>
+              </ul>
+            </li>
             <li>
-              <div class="nav-title">
-                <a href="catalog.html">Каталог товаров
-                <span class="dropp"></span>
-              </a>
-              </div>
-              <div class="header-nav-deployed">
-                <ul class="sub-menu">
-                  <li>
-                    <a href="#">Виртуальная реальность</a>
-                  </li>
-                  <li>
-                    <a href="#">Моноподы для селфи</a>
-                  </li>
-                  <li>
-                    <a href="#">Экшн-камеры</a>
-                  </li>
-                </ul>
-                <ul class="sub-menu">
-                  <li>
-                    <a href="#">Фитнес-браслеты</a>
-                  </li>
-                  <li>
-                    <a href="#">Умные часы</a>
-                  </li>
-                </ul>
-                <ul class="sub-menu">
-                  <li>
-                    <a href="#">Квадрокоптеры</a>
-                  </li>
-                </ul>
-              </div>
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">Фитнес-браслеты</a>
+                </li>
+                <li>
+                  <a href="#">Умные часы</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">Квадрокоптеры</a>
+                </li>
+              </ul>
             </li>
           </ul>
           <ul class="nav-servise">
@@ -141,7 +143,7 @@
             </p>
             <ul class="header-filter">
               <li>
-                <a class="filter-btn" href="#">По цене</a>
+                <a class="filter-btn marker" href="#">По цене</a>
               </li>
               <li>
                 <a class="filter-btn " href="#">По типу</a>
@@ -163,7 +165,7 @@
       </div>
     </nav>
     <ul class="main-block-produkts">
-      <li class="filter">
+      <div class="filter">
         <aside class="filter-content">
           <h2 class="visually-hidden">Фильтр</h2>
           <form class="form-filter" action="https://echo.htmlacademy.ru" method="post">
@@ -188,35 +190,6 @@
                 <output name="result-right"></output>
               </li>
             </ul>
-
-            <!-- <ul class="block-filter filter-color">
-              <li class="title-product">Цвет</li>
-              <li>
-                <label class="color" for="colour-black">
-                  <span class="color-active"></span>Черный</label>
-                <input class="visually-hidden" type="checkbox" name="colour" id="colour-black" value="Черный" checked>
-              </li>
-              <li>
-                <label class="color" for="colour-white">
-                  <span class="color-none"></span>Белый</label>
-                <input class="visually-hidden" type="checkbox" name="colour" id="colour-white" value="Белый">
-              </li>
-              <li>
-                <label class="color" for="colour-blue">
-                  <span class="color-active"></span>Синий</label>
-                <input class="visually-hidden" type="checkbox" name="colour" id="colour-blue" value="Синий" checked>
-              </li>
-              <li>
-                <label class="color" for="colour-red">
-                  <span class="color-active"></span>Красный</label>
-                <input class="visually-hidden" type="checkbox" name="colour" id="colour-red" value="Красный" checked>
-              </li>
-              <li>
-                <label class="color" for="colour-pink">
-                  <span class="color-none"></span>Розовый</label>
-                <input class="visually-hidden" type="checkbox" name="colour" id="colour-pink" value="Розовый">
-              </li>
-            </ul> -->
 
             <div class="block-filter filter-color">
               <h3 class="title-product">Цвет</h3>
@@ -260,10 +233,10 @@
             <button class="button-page button-title" type="submit">Показать</button>
           </form>
         </aside>
-      </li>
+      </div>
 
 
-      <li class="products-side">
+      <div class="products-side">
         <section class="products">
           <div class="main-block-products">
             <h2 class="visually-hidden"> Товары</h2>
@@ -282,7 +255,7 @@
                   <h3 class="title-product">
                     <a href="#">Любительская селфи-палка</a>
                   </h3>
-                  <div class="price">500 руб.</div>
+                  <div class="price-product">500 руб.</div>
                 </div>
                 <div class="icon-new">
                   <span class="icon-text">NEW</span>
@@ -302,7 +275,7 @@
                   <h3 class="title-product">
                     <a href="#">Профессиональная<br>селфи-палка</a>
                   </h3>
-                  <div class="price">1 500 руб.</div>
+                  <div class="price-product">1 500 руб.</div>
                 </div>
                 <div class="icon-new">
                   <span class="icon-text">NEW</span>
@@ -322,7 +295,7 @@
                   <h3 class="title-product">
                     <a href="#">Непотопляемая селфи-палка</a>
                   </h3>
-                  <div class="price">2 500 руб.</div>
+                  <div class="price-product">2 500 руб.</div>
                 </div>
                 <div class="icon-new">
                   <span class="icon-text">NEW</span>
@@ -342,7 +315,7 @@
                   <h3 class="title-product">
                     <a href="#">Селфи-палка «Следуй за мной»</a>
                   </h3>
-                  <div class="price">4 900 руб.</div>
+                  <div class="price-product">4 900 руб.</div>
                 </div>
                 <div class="icon-new icon-new-on">
                   <span class="icon-text">NEW</span>
@@ -369,7 +342,7 @@
             </div>
           </div>
         </section>
-      </li>
+      </div>
     </ul>
   </main>
 
